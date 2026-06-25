@@ -1,1728 +1,3775 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6221cef4-bf70-45d7-91ed-bdddc4ed9449)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "D36V28Fx:D36V28FX" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D36V28FX_0_1"
-        (rectangle (start -5.08 -2.54) (end 6.35 -17.78)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "D36V28FX_1_0"
-        (pin power_out line (at -7.62 -5.08 0) (length 2.54)
-          (name "VOUT" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 -7.62 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 -10.16 0) (length 2.54)
-          (name "VIN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -12.7 0) (length 2.54)
-          (name "EN" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -7.62 -15.24 0) (length 2.54)
-          (name "PG" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "D36V28FX_1_1"
-        (text " D36V28Fx" (at 0 -1.27 0)
-          (effects (font (size 1.27 1.27)))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LED" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "LED diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Light emitting diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0_1"
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -0.762)
-            (xy -4.572 -2.286)
-            (xy -3.81 -2.286)
-            (xy -4.572 -2.286)
-            (xy -4.572 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -0.762)
-            (xy -3.302 -2.286)
-            (xy -2.54 -2.286)
-            (xy -3.302 -2.286)
-            (xy -3.302 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "LED_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Regulator_Linear:TLV71209_SOT23-5" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -3.81 5.715 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TLV71209_SOT23-5" (at 0 5.715 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 8.255 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv712.pdf" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "LDO Regulator Fixed Positive" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TLV71209_SOT23-5_0_1"
-        (rectangle (start -5.08 4.445) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "TLV71209_SOT23-5_1_1"
-        (pin power_in line (at -7.62 2.54 0) (length 2.54)
-          (name "IN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "EN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 5.08 0 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 2.54 180) (length 2.54)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "pololu:D24V10FX" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -1.27 12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D24V10FX" (at -1.27 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.27 12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at -1.27 12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D24V10FX_0_1"
-        (rectangle (start -6.35 7.62) (end 5.08 -7.62)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "D24V10FX_1_0"
-        (pin output line (at -8.89 5.08 0) (length 2.54)
-          (name "PG" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -8.89 2.54 0) (length 2.54)
-          (name "nSHDN" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -8.89 0 0) (length 2.54)
-          (name "VIN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -8.89 -2.54 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at -8.89 -5.08 0) (length 2.54)
-          (name "VOUT" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+12V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+12V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+12V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+12V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+24V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+24V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+24V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+24V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+24V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 19.05 52.07) (diameter 0) (color 0 0 0 0)
-    (uuid 366b3a68-1ada-4853-81dc-fd1e7dccc5f9)
-  )
-  (junction (at 40.64 52.07) (diameter 0) (color 0 0 0 0)
-    (uuid 41ad26c3-7600-4666-8157-12c3b8229548)
-  )
-  (junction (at 82.55 30.48) (diameter 0) (color 0 0 0 0)
-    (uuid 9c3fe04e-99cc-443c-9b81-c567d3fdf015)
-  )
-  (junction (at 24.13 52.07) (diameter 0) (color 0 0 0 0)
-    (uuid bdd92e02-9991-42ad-9f6b-f99c6e243fcc)
-  )
-  (junction (at 34.29 25.4) (diameter 0) (color 0 0 0 0)
-    (uuid da9b00da-dea5-4b33-b724-f0a1f9fb34b6)
-  )
-
-  (no_connect (at 50.8 27.94) (uuid 5559ba24-b8f1-4133-81e7-0f2aedafcada))
-  (no_connect (at 104.14 27.94) (uuid d58fc377-f8cc-4703-ad43-d0bb9a5d3af4))
-
-  (wire (pts (xy 39.37 52.07) (xy 40.64 52.07))
-    (stroke (width 0) (type default))
-    (uuid 2c4c1d8c-ff47-4cd4-bade-18d4df130445)
-  )
-  (wire (pts (xy 101.6 25.4) (xy 101.6 29.21))
-    (stroke (width 0) (type default))
-    (uuid 2f2d812c-4bc0-427b-9acb-7ad84c5a4b49)
-  )
-  (wire (pts (xy 95.25 22.86) (xy 104.14 22.86))
-    (stroke (width 0) (type default))
-    (uuid 33ed4fe4-3ce0-429e-80e6-938ffe9c8b9d)
-  )
-  (wire (pts (xy 104.14 25.4) (xy 101.6 25.4))
-    (stroke (width 0) (type default))
-    (uuid 35ab9f3f-3692-4dfa-84ee-7e7cd976f786)
-  )
-  (wire (pts (xy 50.8 30.48) (xy 45.72 30.48))
-    (stroke (width 0) (type default))
-    (uuid 47fe675c-20c1-48df-a833-06d053316203)
-  )
-  (wire (pts (xy 34.29 25.4) (xy 25.4 25.4))
-    (stroke (width 0) (type default))
-    (uuid 772a2ace-3ddd-49a1-ba30-897226c8539b)
-  )
-  (wire (pts (xy 45.72 30.48) (xy 45.72 29.21))
-    (stroke (width 0) (type default))
-    (uuid 9346af04-5bfa-4d68-8b04-3d4339b63f9b)
-  )
-  (wire (pts (xy 104.14 30.48) (xy 82.55 30.48))
-    (stroke (width 0) (type default))
-    (uuid 95e41bc3-c025-42e8-bbfe-a9065a22565c)
-  )
-  (wire (pts (xy 19.05 52.07) (xy 24.13 52.07))
-    (stroke (width 0) (type default))
-    (uuid 98e2841c-c4fd-4ef4-9905-f281500e8bba)
-  )
-  (wire (pts (xy 82.55 30.48) (xy 78.74 30.48))
-    (stroke (width 0) (type default))
-    (uuid b6632e5f-3d6a-4277-8aaa-8647bba5cee0)
-  )
-  (wire (pts (xy 40.64 35.56) (xy 50.8 35.56))
-    (stroke (width 0) (type default))
-    (uuid c54b5805-5ad7-49b2-8679-b40ff2ed33d6)
-  )
-  (wire (pts (xy 24.13 52.07) (xy 24.13 54.61))
-    (stroke (width 0) (type default))
-    (uuid c8ad46d1-cd2c-4ba3-bac6-f7fd08f5cd64)
-  )
-  (wire (pts (xy 101.6 29.21) (xy 100.33 29.21))
-    (stroke (width 0) (type default))
-    (uuid e0784db5-784d-4187-89cd-ba9bc4edc7e5)
-  )
-  (wire (pts (xy 50.8 25.4) (xy 34.29 25.4))
-    (stroke (width 0) (type default))
-    (uuid ebdaccb3-08d9-4657-832c-1d57218b3706)
-  )
-
-  (rectangle (start 68.58 41.91) (end 127 73.66)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 0d9b829c-c5e4-42df-9a80-64211d948a6d)
-  )
-  (rectangle (start 12.7 41.91) (end 67.31 73.66)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 3ad584db-da26-42d4-ae27-152127ca3f2f)
-  )
-  (rectangle (start 68.58 12.7) (end 127 40.64)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 6f7afa19-a8ae-43f6-a9f1-a2a21fa17e17)
-  )
-  (rectangle (start 12.7 12.7) (end 67.31 40.64)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 968ddb1c-5a4e-47ea-bfe8-cf404cf37afe)
-  )
-
-  (text "5V -> 3.3V for sensors" (at 15.24 72.39 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2284ae48-03e7-4e2f-9f69-7d3cb06b3121)
-  )
-  (text "24V -> 12V for selector valves" (at 73.66 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e1ce75e9-83cf-4ddf-abc5-6b5a7f46e636)
-  )
-  (text "24V -> 5V for disc pump, sensors" (at 12.7 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid eae27146-035a-4b7f-a827-4ff0e5bc6da7)
-  )
-  (text "Indicator LEDs" (at 78.74 72.39 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f62083a8-9a47-4e69-9df5-20459b04b530)
-  )
-
-  (hierarchical_label "PG-5V" (shape output) (at 25.4 25.4 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0c4eceef-a497-45ef-b568-b5dd2457d1a6)
-  )
-  (hierarchical_label "PG-12V" (shape output) (at 78.74 30.48 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f744d698-85af-473f-a5d3-9e5b0c467aed)
-  )
-
-  (symbol (lib_id "power:GND") (at 19.05 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 02deb513-c47d-4f4f-bc57-bfb6c2ffac42)
-    (property "Reference" "#PWR062" (at 19.05 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 19.05 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 19.05 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 19.05 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dd88d207-71ef-4c15-98c0-595692afe2a3))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 40.64 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 05fea795-c36a-43b4-8307-1d921fc4d3df)
-    (property "Reference" "#PWR060" (at 40.64 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 38.1 33.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 40.64 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f85c68f7-12c7-4abf-848c-9e97b3b86c0f))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR060") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 80.01 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0f4de59c-4d54-424e-87f7-70cc79b316e7)
-    (property "Reference" "R2" (at 81.788 50.9016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "20k" (at 81.788 53.213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 78.232 52.07 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 80.01 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "RC0603FR-072KL" (at 80.01 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 69c756e2-94d3-4b30-a41e-b90e71e5ab69))
-    (pin "2" (uuid 8bfb68fc-761d-4102-a01c-745162255c24))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R2") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 90.17 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 12789a52-0727-42c9-94bf-47680f5bbbd2)
-    (property "Reference" "D2" (at 93.1672 58.6994 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 93.1672 61.0108 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 90.17 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.17 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C73546" (at 90.17 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "LTST-C170TGKT" (at 90.17 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 95ca1c46-1bfc-4ec3-b73d-5e3df78b021c))
-    (pin "2" (uuid 881f0c7e-81f9-4bdd-9d49-83c073d69d35))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "D?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 19.05 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1b2d064b-d3b9-4a15-a384-e87bdb07e772)
-    (property "Reference" "#PWR061" (at 19.05 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 15.24 49.53 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 19.05 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 19.05 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 908e88a7-8bbf-4a44-8765-c981633bdf7b))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR061") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 80.01 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1d56c8d7-a4c4-40b2-8919-e1b936a22413)
-    (property "Reference" "#PWR071" (at 80.01 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 80.137 67.8942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 80.01 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 80.01 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 84d5c093-003c-4884-a6f4-b477af5d7873))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR071") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "D36V28Fx:D36V28FX") (at 111.76 15.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 23a1320f-6c68-4424-92de-651451cdb3d2)
-    (property "Reference" "U5" (at 119.38 24.2542 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 111.76 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "D36V28Fx:D36V28Fx" (at 111.76 15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5e7fe678-f4dc-4a13-976a-c0edf29959b0))
-    (pin "2" (uuid e00dde7c-12da-4a4e-bb02-0cba3f143f03))
-    (pin "3" (uuid f16dace2-a5d6-4a3d-a424-28bcf02e95d8))
-    (pin "4" (uuid beb00a7b-8d54-4970-a237-affad6919860))
-    (pin "5" (uuid 54618cb7-2a48-412a-a6a7-f0fb045105f0))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "U5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 82.55 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2b6b429a-4c9f-4cc6-83a1-bea95a4a31ac)
-    (property "Reference" "R52" (at 85.09 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47k" (at 85.09 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 80.772 26.67 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 82.55 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8a1ae34-0cf2-4ffc-a115-6625fdd6147c))
-    (pin "2" (uuid 9b9050eb-dddc-4e29-8cf2-38a63da8b161))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R52") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 101.6 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2c44a8f4-2289-4e0a-9901-df3ff78ea016)
-    (property "Reference" "D3" (at 104.5972 58.6994 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 104.5972 61.0108 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 101.6 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 101.6 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C73546" (at 101.6 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "LTST-C170TGKT" (at 101.6 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7a3cbc27-a5fd-4779-904e-609a8b4b6d5c))
-    (pin "2" (uuid 2663ff5e-b79c-47b9-885c-00bc258b2f18))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D3") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "D?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 31.75 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3cf0e9f3-3df6-4709-a491-dacfcbc517db)
-    (property "Reference" "#PWR065" (at 31.75 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 31.75 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 31.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 31.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d89fd671-3b21-4785-b361-53789001bd04))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR065") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 40.64 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3f407ee9-7e36-4e6a-b836-31ca6724e8f5)
-    (property "Reference" "C2" (at 44.45 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 44.45 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 41.6052 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 40.64 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2e0400f0-0b4d-4af9-8cd2-b74cfd0162a0))
-    (pin "2" (uuid dfb333ae-816b-4726-8ecc-7dcf309fc897))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 104.14 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 41147bdd-83eb-480a-be13-99a84f79d4f1)
-    (property "Reference" "#PWR074" (at 104.14 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 104.14 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 104.14 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 104.14 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid faa89415-2df0-49d3-befb-4af2503a58f5))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR074") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 40.64 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 50e01a8e-4c8a-48bd-8b7b-bf22c2267576)
-    (property "Reference" "#PWR067" (at 40.64 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 40.64 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 40.64 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7e1556cf-db03-4c6d-adfa-0fbdcadced7f))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR067") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 90.17 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 56a45eaf-813a-4b1a-a69c-eafcbaae88fe)
-    (property "Reference" "R3" (at 91.948 50.9016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5.6k" (at 91.948 53.213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 88.392 52.07 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.17 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "RT0603DRD07680RL" (at 90.17 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc9e6036-d8fd-47ce-b96c-55f0e2094252))
-    (pin "2" (uuid 93b2d6b6-7b1b-4dee-8c08-e17f6799294c))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R3") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 19.05 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 57389136-2c37-4bbe-867f-a16a5c81144f)
-    (property "Reference" "C1" (at 12.7 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 13.97 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 20.0152 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 19.05 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0a6fdbf8-2b10-416e-8375-81b909824ceb))
-    (pin "2" (uuid 5107cb0e-e5f8-498d-8654-a4e4b162bfe9))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+24V") (at 100.33 29.21 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 633ef54a-c82e-4b34-a994-fe4bb58d1443)
-    (property "Reference" "#PWR068" (at 100.33 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+24V" (at 95.25 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 100.33 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e95c25a7-3d40-4648-b9ae-6261de436e64))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR068") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 40.64 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 644833e2-a776-40d0-ae3d-b569353cd16b)
-    (property "Reference" "#PWR066" (at 40.64 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 40.64 46.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 40.64 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ffead62b-96b5-4f4b-ade1-6e7aa09a9129))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR066") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "pololu:D24V10FX") (at 59.69 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7987896a-447f-4707-9c12-bea678856273)
-    (property "Reference" "U4" (at 53.34 19.05 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D24V10FX" (at 53.34 21.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "pololu:D24V10FX" (at 58.42 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 58.42 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ebeb2fd5-d875-4325-97ad-6f5971d5b413))
-    (pin "2" (uuid 668860c8-ec1e-4d4f-9f95-67d5dff81064))
-    (pin "3" (uuid 0baed838-b9cb-465a-a5b5-6c61aeed1ee6))
-    (pin "4" (uuid 2b0dbcdf-00eb-4e3d-83f4-a7cdaf71b9b7))
-    (pin "5" (uuid 8803e086-fc02-431d-9e78-5e549466dab9))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+24V") (at 101.6 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 810b557d-f972-488a-b039-60a3759eccd2)
-    (property "Reference" "#PWR076" (at 101.6 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+24V" (at 101.981 43.8658 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 101.6 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 101.6 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ba76ed50-0e75-46ca-9e0d-500f5b9a3e21))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR076") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 50.8 33.02 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 81b7c9c6-e8ae-4a13-8f76-935f8d1cc409)
-    (property "Reference" "#PWR064" (at 44.45 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 46.99 33.02 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 50.8 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 50.8 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0cccbd99-5002-41c0-8e79-1f3c03ea20b7))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR064") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 95.25 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 863430fe-1a60-44b9-a634-f3fa9c58a6bf)
-    (property "Reference" "#PWR075" (at 95.25 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 91.44 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 95.25 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 95.25 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 91203bdd-68b8-4439-8c0e-e93877166b34))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 101.6 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8f484598-6934-4729-b80a-b3658f31e632)
-    (property "Reference" "#PWR077" (at 101.6 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 101.727 67.8942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 101.6 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 101.6 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3f62f659-c8f4-48ce-a538-e4cc81b8d2e1))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR077") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 101.6 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 90254ebe-90b7-4d99-85c3-6e27c2e73527)
-    (property "Reference" "R4" (at 103.378 50.9016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47k" (at 103.378 53.213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 99.822 52.07 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 101.6 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "RC0603FR-074K7L" (at 101.6 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 293833b0-a621-4c83-81bf-4c9627186a78))
-    (pin "2" (uuid db009685-ab9d-4d4b-9e24-d03e13de0869))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R4") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 80.01 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9fdbefcd-780f-4a61-ba55-ee52ca8072b5)
-    (property "Reference" "D1" (at 83.0072 58.6994 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 83.0072 61.0108 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 80.01 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 80.01 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C72035" (at 80.01 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "LTST-C170TBKT" (at 80.01 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10a99da4-35db-47c1-880f-7b1d7d66761b))
-    (pin "2" (uuid c331a296-5e0a-4e94-94de-492e809c40bb))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "D?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+24V") (at 45.72 29.21 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ab811def-6dbb-4715-aa06-0ca36612ecf7)
-    (property "Reference" "#PWR06" (at 45.72 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+24V" (at 41.91 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 45.72 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 45.72 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 288444c7-f6e6-4eff-9c5b-d6110883d4e6))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 111.76 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ace45d7f-7436-4d1c-abd2-7929e1405421)
-    (property "Reference" "#PWR079" (at 111.76 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 111.887 67.8942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.76 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a697b014-0b68-4437-89e7-5c270b7e6a81))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR079") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 82.55 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid acf21345-63b6-4aef-b951-e0cbe44aa929)
-    (property "Reference" "#PWR023" (at 82.55 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 78.74 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 82.55 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 82.55 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c46b7f2c-19cc-4b82-91ed-f0e4f2b587c2))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 80.01 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b699347e-3161-4c68-a824-8b736dc3ed30)
-    (property "Reference" "#PWR070" (at 80.01 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 77.47 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 80.01 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 80.01 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 48dd2350-3f22-4c08-8d66-642d6ce6ff6d))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR070") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Regulator_Linear:TLV71209_SOT23-5") (at 31.75 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b7a35243-ef8b-4746-a48e-474ff9b94757)
-    (property "Reference" "U3" (at 15.24 45.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AP7366EA-33W5-7" (at 27.94 45.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 31.75 46.355 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "" (at 31.75 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e8cce840-67c4-46a0-8797-13284f5fcf91))
-    (pin "2" (uuid 71682795-4f35-4e38-92d8-579eb8ac1d03))
-    (pin "3" (uuid 9bc916ae-da31-4433-b30b-57b963e710bf))
-    (pin "4" (uuid e3551264-55ea-46b8-94fa-fb2813cb61b1))
-    (pin "5" (uuid fde6f72f-4f9f-40e9-8ecf-a2c16e99db10))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 90.17 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c9bddcbb-0b1c-43f1-95b6-1f9608bb2df4)
-    (property "Reference" "#PWR073" (at 90.17 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 90.297 67.8942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 90.17 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.17 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4fa16e7c-47bc-4d9a-863e-17a830c816b1))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR073") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 34.29 17.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cc034e17-c660-406f-bdff-6936bce44c52)
-    (property "Reference" "#PWR021" (at 34.29 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 30.48 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 34.29 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 34.29 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9aa2247e-3b1b-4c2f-b893-a9f479b42af5))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 111.76 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ceb52df9-cab9-4bea-b902-a69e7b48b40e)
-    (property "Reference" "D4" (at 114.7572 58.6994 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 114.7572 61.0108 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 111.76 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C83960" (at 111.76 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "EAST2012WA1" (at 111.76 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 51234eee-9606-4063-a5b2-d9cd36c86934))
-    (pin "2" (uuid b259fbc2-0d5e-4baf-95c5-dfd9925e05c0))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "D4") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "D?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 34.29 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d74d9024-0020-44dd-bbe5-d863453a0b6f)
-    (property "Reference" "R51" (at 36.83 20.32 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47k" (at 36.83 22.86 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 32.512 21.59 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 34.29 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6703d7ec-2f1d-4c53-a773-8ab46286cfeb))
-    (pin "2" (uuid 5905b860-7792-4cbf-b804-8994065fa099))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R51") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 90.17 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e5f24748-3f0d-4ac2-aac9-42a5265fe9e6)
-    (property "Reference" "#PWR072" (at 90.17 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 90.551 43.8658 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 90.17 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.17 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b6e0fa4-c418-4214-9736-e049ec2c2279))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR072") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 111.76 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ebbd8013-e5ba-481d-a5bc-4f288f29b4cf)
-    (property "Reference" "#PWR078" (at 111.76 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 111.76 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.76 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 359d8a65-c87e-4274-850a-d5f22cb8103d))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "#PWR078") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 111.76 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fd3df30d-0acc-4bd9-9a99-8bf1f40c4935)
-    (property "Reference" "R5" (at 113.538 50.9016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3k" (at 113.538 53.213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 109.982 52.07 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer_Part_Number" "RC0603FR-07270RL" (at 111.76 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d88cd053-4c03-40f9-b0e3-c1afbf8548d2))
-    (pin "2" (uuid f29a97d7-a7a7-4f13-b3ab-6906d2668790))
-    (instances
-      (project "fluidics-v2"
-        (path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
-          (reference "R5") (unit 1)
-        )
-      )
-      (project "fluidics - standalone"
-        (path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6221cef4-bf70-45d7-91ed-bdddc4ed9449")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:TLV71209_SOT23-5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV71209_SOT23-5"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv712.pdf"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV71209_SOT23-5_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV71209_SOT23-5_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pololu:D24V10FX"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -1.27 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D24V10FX"
+				(at -1.27 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D24V10FX_0_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D24V10FX_1_0"
+				(pin output line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "nSHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+24V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+24V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 68.58 41.91)
+		(end 127 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0d9b829c-c5e4-42df-9a80-64211d948a6d")
+	)
+	(rectangle
+		(start 12.7 41.91)
+		(end 67.31 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3ad584db-da26-42d4-ae27-152127ca3f2f")
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 67.31 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "968ddb1c-5a4e-47ea-bfe8-cf404cf37afe")
+	)
+	(text "5V -> 3.3V for sensors"
+		(exclude_from_sim no)
+		(at 15.24 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2284ae48-03e7-4e2f-9f69-7d3cb06b3121")
+	)
+	(text "24V -> 5V for disc pump, sensors"
+		(exclude_from_sim no)
+		(at 12.7 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eae27146-035a-4b7f-a827-4ff0e5bc6da7")
+	)
+	(text "Indicator LEDs"
+		(exclude_from_sim no)
+		(at 78.74 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f62083a8-9a47-4e69-9df5-20459b04b530")
+	)
+	(junction
+		(at 19.05 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366b3a68-1ada-4853-81dc-fd1e7dccc5f9")
+	)
+	(junction
+		(at 40.64 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ad26c3-7600-4666-8157-12c3b8229548")
+	)
+	(junction
+		(at 24.13 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd92e02-9991-42ad-9f6b-f99c6e243fcc")
+	)
+	(junction
+		(at 34.29 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da9b00da-dea5-4b33-b724-f0a1f9fb34b6")
+	)
+	(no_connect
+		(at 50.8 27.94)
+		(uuid "5559ba24-b8f1-4133-81e7-0f2aedafcada")
+	)
+	(wire
+		(pts
+			(xy 39.37 52.07) (xy 40.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4c1d8c-ff47-4cd4-bade-18d4df130445")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fe675c-20c1-48df-a833-06d053316203")
+	)
+	(wire
+		(pts
+			(xy 34.29 25.4) (xy 25.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772a2ace-3ddd-49a1-ba30-897226c8539b")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 45.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9346af04-5bfa-4d68-8b04-3d4339b63f9b")
+	)
+	(wire
+		(pts
+			(xy 19.05 52.07) (xy 24.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e2841c-c4fd-4ef4-9905-f281500e8bba")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54b5805-5ad7-49b2-8679-b40ff2ed33d6")
+	)
+	(wire
+		(pts
+			(xy 24.13 52.07) (xy 24.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ad46d1-cd2c-4ba3-bac6-f7fd08f5cd64")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 34.29 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdaccb3-08d9-4657-832c-1d57218b3706")
+	)
+	(hierarchical_label "PG-5V"
+		(shape output)
+		(at 25.4 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c4eceef-a497-45ef-b568-b5dd2457d1a6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02deb513-c47d-4f4f-bc57-bfb6c2ffac42")
+		(property "Reference" "#PWR062"
+			(at 19.05 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd88d207-71ef-4c15-98c0-595692afe2a3")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05fea795-c36a-43b4-8307-1d921fc4d3df")
+		(property "Reference" "#PWR060"
+			(at 40.64 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 38.1 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f85c68f7-12c7-4abf-848c-9e97b3b86c0f")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 90.17 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12789a52-0727-42c9-94bf-47680f5bbbd2")
+		(property "Reference" "D2"
+			(at 93.1672 58.6994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 93.1672 61.0108 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 90.17 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C73546"
+			(at 90.17 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170TGKT"
+			(at 90.17 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95ca1c46-1bfc-4ec3-b73d-5e3df78b021c")
+		)
+		(pin "2"
+			(uuid "881f0c7e-81f9-4bdd-9d49-83c073d69d35")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 19.05 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b2d064b-d3b9-4a15-a384-e87bdb07e772")
+		(property "Reference" "#PWR061"
+			(at 19.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 15.24 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "908e88a7-8bbf-4a44-8765-c981633bdf7b")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 101.6 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c44a8f4-2289-4e0a-9901-df3ff78ea016")
+		(property "Reference" "D3"
+			(at 104.5972 58.6994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 104.5972 61.0108 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 101.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C73546"
+			(at 101.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170TGKT"
+			(at 101.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a3cbc27-a5fd-4779-904e-609a8b4b6d5c")
+		)
+		(pin "2"
+			(uuid "2663ff5e-b79c-47b9-885c-00bc258b2f18")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf0e9f3-3df6-4709-a491-dacfcbc517db")
+		(property "Reference" "#PWR065"
+			(at 31.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d89fd671-3b21-4785-b361-53789001bd04")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f407ee9-7e36-4e6a-b836-31ca6724e8f5")
+		(property "Reference" "C2"
+			(at 44.45 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 44.45 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 41.6052 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e0400f0-0b4d-4af9-8cd2-b74cfd0162a0")
+		)
+		(pin "2"
+			(uuid "dfb333ae-816b-4726-8ecc-7dcf309fc897")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50e01a8e-4c8a-48bd-8b7b-bf22c2267576")
+		(property "Reference" "#PWR067"
+			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e1556cf-db03-4c6d-adfa-0fbdcadced7f")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56a45eaf-813a-4b1a-a69c-eafcbaae88fe")
+		(property "Reference" "R3"
+			(at 91.948 50.9016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.6k"
+			(at 91.948 53.213 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 88.392 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603DRD07680RL"
+			(at 90.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc9e6036-d8fd-47ce-b96c-55f0e2094252")
+		)
+		(pin "2"
+			(uuid "93b2d6b6-7b1b-4dee-8c08-e17f6799294c")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 19.05 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57389136-2c37-4bbe-867f-a16a5c81144f")
+		(property "Reference" "C1"
+			(at 12.7 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 13.97 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 20.0152 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a6fdbf8-2b10-416e-8375-81b909824ceb")
+		)
+		(pin "2"
+			(uuid "5107cb0e-e5f8-498d-8654-a4e4b162bfe9")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "644833e2-a776-40d0-ae3d-b569353cd16b")
+		(property "Reference" "#PWR066"
+			(at 40.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 40.64 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffead62b-96b5-4f4b-ade1-6e7aa09a9129")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pololu:D24V10FX")
+		(at 59.69 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7987896a-447f-4707-9c12-bea678856273")
+		(property "Reference" "U4"
+			(at 53.34 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D24V10FX"
+			(at 53.34 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pololu:D24V10FX"
+			(at 58.42 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebeb2fd5-d875-4325-97ad-6f5971d5b413")
+		)
+		(pin "2"
+			(uuid "668860c8-ec1e-4d4f-9f95-67d5dff81064")
+		)
+		(pin "3"
+			(uuid "0baed838-b9cb-465a-a5b5-6c61aeed1ee6")
+		)
+		(pin "4"
+			(uuid "2b0dbcdf-00eb-4e3d-83f4-a7cdaf71b9b7")
+		)
+		(pin "5"
+			(uuid "8803e086-fc02-431d-9e78-5e549466dab9")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 101.6 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "810b557d-f972-488a-b039-60a3759eccd2")
+		(property "Reference" "#PWR076"
+			(at 101.6 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 101.981 43.8658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba76ed50-0e75-46ca-9e0d-500f5b9a3e21")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81b7c9c6-e8ae-4a13-8f76-935f8d1cc409")
+		(property "Reference" "#PWR064"
+			(at 44.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cccbd99-5002-41c0-8e79-1f3c03ea20b7")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f484598-6934-4729-b80a-b3658f31e632")
+		(property "Reference" "#PWR077"
+			(at 101.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.727 67.8942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f62f659-c8f4-48ce-a538-e4cc81b8d2e1")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90254ebe-90b7-4d99-85c3-6e27c2e73527")
+		(property "Reference" "R4"
+			(at 103.378 50.9016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 103.378 53.213 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 99.822 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-074K7L"
+			(at 101.6 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "293833b0-a621-4c83-81bf-4c9627186a78")
+		)
+		(pin "2"
+			(uuid "db009685-ab9d-4d4b-9e24-d03e13de0869")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 45.72 29.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab811def-6dbb-4715-aa06-0ca36612ecf7")
+		(property "Reference" "#PWR06"
+			(at 45.72 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 41.91 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "288444c7-f6e6-4eff-9c5b-d6110883d4e6")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ace45d7f-7436-4d1c-abd2-7929e1405421")
+		(property "Reference" "#PWR079"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.887 67.8942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a697b014-0b68-4437-89e7-5c270b7e6a81")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV71209_SOT23-5")
+		(at 31.75 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7a35243-ef8b-4746-a48e-474ff9b94757")
+		(property "Reference" "U3"
+			(at 15.24 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7366EA-33W5-7"
+			(at 27.94 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 31.75 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8cce840-67c4-46a0-8797-13284f5fcf91")
+		)
+		(pin "2"
+			(uuid "71682795-4f35-4e38-92d8-579eb8ac1d03")
+		)
+		(pin "3"
+			(uuid "9bc916ae-da31-4433-b30b-57b963e710bf")
+		)
+		(pin "4"
+			(uuid "e3551264-55ea-46b8-94fa-fb2813cb61b1")
+		)
+		(pin "5"
+			(uuid "fde6f72f-4f9f-40e9-8ecf-a2c16e99db10")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9bddcbb-0b1c-43f1-95b6-1f9608bb2df4")
+		(property "Reference" "#PWR073"
+			(at 90.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.297 67.8942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fa16e7c-47bc-4d9a-863e-17a830c816b1")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 34.29 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc034e17-c660-406f-bdff-6936bce44c52")
+		(property "Reference" "#PWR021"
+			(at 34.29 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 30.48 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9aa2247e-3b1b-4c2f-b893-a9f479b42af5")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 111.76 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceb52df9-cab9-4bea-b902-a69e7b48b40e")
+		(property "Reference" "D4"
+			(at 114.7572 58.6994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 114.7572 61.0108 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 111.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C83960"
+			(at 111.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EAST2012WA1"
+			(at 111.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51234eee-9606-4063-a5b2-d9cd36c86934")
+		)
+		(pin "2"
+			(uuid "b259fbc2-0d5e-4baf-95c5-dfd9925e05c0")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d74d9024-0020-44dd-bbe5-d863453a0b6f")
+		(property "Reference" "R51"
+			(at 36.83 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 36.83 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 32.512 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6703d7ec-2f1d-4c53-a773-8ab46286cfeb")
+		)
+		(pin "2"
+			(uuid "5905b860-7792-4cbf-b804-8994065fa099")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5f24748-3f0d-4ac2-aac9-42a5265fe9e6")
+		(property "Reference" "#PWR072"
+			(at 90.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 90.551 43.8658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b6e0fa4-c418-4214-9736-e049ec2c2279")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebbd8013-e5ba-481d-a5bc-4f288f29b4cf")
+		(property "Reference" "#PWR078"
+			(at 111.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "359d8a65-c87e-4274-850a-d5f22cb8103d")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd3df30d-0acc-4bd9-9a99-8bf1f40c4935")
+		(property "Reference" "R5"
+			(at 113.538 50.9016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 113.538 53.213 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 109.982 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07270RL"
+			(at 111.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d88cd053-4c03-40f9-b0e3-c1afbf8548d2")
+		)
+		(pin "2"
+			(uuid "f29a97d7-a7a7-4f13-b3ab-6906d2668790")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "fluidics - standalone"
+				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

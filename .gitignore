@@ -1,0 +1,8 @@
+# KiCad lock & autosave files (should never be version-controlled)
+*.lck
+~*.lck
+_autosave-*
+# LibreOffice lock files
+.~lock.*#
+# Editor local-history
+.history/
