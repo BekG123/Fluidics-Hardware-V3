@@ -7118,7 +7118,7 @@
 		)
 		(uuid "41a69caf-d4f8-411e-817f-b9b68d245730")
 	)
-	(text "Four air pressure sensors, \nfour flow sensors"
+	(text "Four air pressure sensors, \nthree flow sensors (V3)"
 		(exclude_from_sim no)
 		(at 326.39 201.93 0)
 		(effects
@@ -8309,16 +8309,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 203.2) (xy 388.62 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a581ce8-d4a2-4a83-8123-7a160ed27ce3")
-	)
-	(wire
-		(pts
 			(xy 309.88 186.69) (xy 317.5 186.69)
 		)
 		(stroke
@@ -8777,16 +8767,6 @@
 		)
 		(uuid "7a4e5d09-ccda-4e82-b9d8-0b55d72061ee")
 	)
-	(wire
-		(pts
-			(xy 375.92 205.74) (xy 396.24 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b31d889-b46f-41a2-85a1-7497cb08105d")
-	)
 	(bus
 		(pts
 			(xy 304.8 215.9) (xy 354.33 215.9)
@@ -8866,26 +8846,6 @@
 			(type default)
 		)
 		(uuid "809723ab-6f2b-4e6a-9a26-2cf8ca46bcfb")
-	)
-	(wire
-		(pts
-			(xy 396.24 205.74) (xy 396.24 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83055247-6024-4fd0-96e2-db2abb1e8907")
-	)
-	(wire
-		(pts
-			(xy 388.62 203.2) (xy 388.62 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "832c91c6-655d-49df-bbd1-22641be75181")
 	)
 	(wire
 		(pts
@@ -10117,6 +10077,16 @@
 		)
 		(uuid "335ecc51-d739-458c-8346-4427a533eac3")
 	)
+	(label "SDA2"
+		(at 396.24 228.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34a0cd30-72c0-44a6-8e1c-e3074f6e68e4")
+	)
 	(label "SCL2"
 		(at 219.71 231.14 0)
 		(effects
@@ -10426,6 +10396,16 @@
 			(justify left bottom)
 		)
 		(uuid "adca5fda-2c47-4bd9-92f1-4f1f5812e7a5")
+	)
+	(label "SCL2"
+		(at 388.62 228.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0872640-b02d-485c-96ed-7eb33c0a56bb")
 	)
 	(label "GPIO_2"
 		(at 284.48 203.2 0)
@@ -17461,7 +17441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caeffc94-1eb9-4d1e-9703-b25ead1d6dec")
-		(property "Reference" "J23"
+		(property "Reference" "J17"
 			(at 406.4 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +17572,7 @@
 		(instances
 			(project "fluidics-v2"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
-					(reference "J23")
+					(reference "J17")
 					(unit 1)
 				)
 			)
