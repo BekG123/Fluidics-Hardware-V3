@@ -682,21 +682,25 @@
     "top_level_sheets": [
       {
         "filename": "fluidics-v2.kicad_sch",
-        "name": "fluidics-v2",
+        "name": "fluidics-v3",
         "uuid": "0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1-2,R6-12,J5-9,J23,J26,#PWR23-29,#PWR43,#PWR46,D1,D5-12",
     "variants": []
   },
   "sheets": [
     [
       "0ec91c42-8aad-437d-8c85-5e10f0e51fe0",
-      "fluidics-v2"
+      "fluidics-v3"
     ],
     [
       "3165fef8-6560-4a32-9d6f-43437086a53c",
       "Power Supplies"
+    ],
+    [
+      "5697258d-329e-4d0c-a016-1049d92e68d8",
+      "Solenoid Valve Driver"
     ],
     [
       "7edd626f-fd99-40ee-aab3-2aaadfd0b2bc",

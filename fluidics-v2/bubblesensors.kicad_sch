@@ -1864,7 +1864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-363   US6_TOS"
+		(property "Footprint" "TC7PZ17FU:SOT-363   US6_TOS"
 			(at 41.91 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D16"
+		(property "Footprint" "hexbuf:D16"
 			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name no)
