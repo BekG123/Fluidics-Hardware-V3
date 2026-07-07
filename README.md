@@ -33,8 +33,6 @@ a PCA9615 differential-I²C link, and UART/logic level shifters.
 - **Power:** +24 V input; Pololu DC-DC regulators for +5 V; on-board LDO (`U3`) for +3.3 V
 - **Mounting:** 4 corner plated holes (`H1`–`H4`), chassis GND
 
-```
-
 ## Fabrication
 
 The ready-to-order package lives in `fab_outs_v3/`
