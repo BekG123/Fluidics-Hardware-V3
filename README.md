@@ -1,3 +1,5 @@
+<img src="assets/cephla-logo.png" alt="Cephla" width="180">
+
 # Fluidics Controller PCB (V3)
 
 A KiCad hardware design for the fluidics controller used on Cephla/Squid
