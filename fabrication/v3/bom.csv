@@ -11,7 +11,7 @@
 "J1","PJ-063AH","barreljack:CUI_PJ-063AH","1","","","C2928097","CUI INC"
 "J2,J4","B6B-ZR-SM4-TF","B6B-ZR-SM4-TF:CONN_B6B-ZR-SM4-TF_JST","2","","","","JST"
 "J3","A-DS_15_A_KG-T4S","db15:ADS15AKGT4S","1","","","C3100941",""
-"J5,J6","Screw_Terminal_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","2","","","",""
+"J5,J6","Screw_Terminal_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal","2","","","",""
 "J10,J12,J14,J18,J21,J25","87832-1010","molex_connectors:878321010","6","","","",""
 "J11,J13,J16,J19,J22,J24","0705430001","molex_connectors:SHDR2W64P0X254_1X2_737X660X1181P","6","","","C5349069",""
 "J15,J17,J20","0533980671","molex_connectors:MOLEX_0533980671","3","","","","Molex"
