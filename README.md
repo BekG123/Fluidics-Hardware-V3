@@ -35,7 +35,7 @@ a PCA9615 differential-I²C link, and UART/logic level shifters.
 
 ## Fabrication
 
-The ready-to-order package lives in `fab_outs_v3/`
+The ready-to-order package lives in `fabrication/v3/`
 
 ## Attribution
 

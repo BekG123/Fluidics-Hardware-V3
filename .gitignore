@@ -6,3 +6,6 @@ _autosave-*
 .~lock.*#
 # Editor local-history
 .history/
+# KiCad auto-backups & footprint cache (regenerated locally)
+*-backups/
+fp-info-cache
