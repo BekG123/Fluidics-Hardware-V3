@@ -294,18 +294,7 @@
 		)
 		(uuid "71da67ae-2218-4311-a722-5a5968fe97ee")
 	)
-	(text "DNP - test signal integrity without the active pullups and populate them if necessary"
-		(exclude_from_sim no)
-		(at 99.06 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0449ae82-c833-4266-9852-8f267053ffd2")
-	)
-	(text "I2C Active Driver\nDrive higher capacitive loads\n(more devices, longer connectors)\n(can DNP IC and use smaller resistors)"
+	(text "I2C Pull-ups\nDrive higher capacitive loads\n(more devices, longer connectors)\n(can DNP IC and use smaller resistors)"
 		(exclude_from_sim no)
 		(at 113.03 57.15 0)
 		(effects

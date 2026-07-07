@@ -4869,18 +4869,6 @@
 		(uuid "66d27c36-160a-43bd-9421-f8380a56a6dd")
 	)
 	(rectangle
-		(start 358.14 158.75)
-		(end 405.13 195.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "8be82f1d-4030-48cb-9108-7c0b01593c60")
-	)
-	(rectangle
 		(start 203.2 130.81)
 		(end 265.43 171.45)
 		(stroke
@@ -4985,9 +4973,9 @@
 		)
 		(uuid "213687c9-ac64-4860-9893-239ef9789f85")
 	)
-	(text "Four air pressure sensors, \nthree flow sensors (V3)"
+	(text "Three flow sensors (V3)"
 		(exclude_from_sim no)
-		(at 326.39 201.93 0)
+		(at 313.69 201.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5050,17 +5038,6 @@
 			(justify left bottom)
 		)
 		(uuid "72a193f5-6b9c-404a-a307-39c3cf37ea23")
-	)
-	(text "I2C GPIO expander for reading switches \nand potentiometer to set pump power"
-		(exclude_from_sim no)
-		(at 365.76 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "805bad00-91d8-4b54-a501-7758d8fc9b8f")
 	)
 	(text "Selector valve power"
 		(exclude_from_sim no)
@@ -5160,12 +5137,6 @@
 		(uuid "4370ae7d-8e41-459f-8d56-3aaefad6e48a")
 	)
 	(junction
-		(at 334.01 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5439f2d1-c4e3-4e08-8209-5e9e1563f013")
-	)
-	(junction
 		(at 227.33 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5224,12 +5195,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d99f6458-bcf2-4fd5-9e8b-b14fec50d10c")
-	)
-	(junction
-		(at 331.47 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da430acc-7351-489f-b64b-b3ebaef51913")
 	)
 	(junction
 		(at 327.66 104.14)
@@ -5332,10 +5297,6 @@
 		(uuid "3c746c65-6c18-4fe7-8c2b-3a8a74705eff")
 	)
 	(no_connect
-		(at 378.46 176.53)
-		(uuid "40e134bc-e3ee-45ff-a10a-40c57b1569de")
-	)
-	(no_connect
 		(at 313.69 228.6)
 		(uuid "441a85d2-ad7e-45be-a9ae-c6fcf53fc441")
 	)
@@ -5410,10 +5371,6 @@
 	(no_connect
 		(at 262.89 87.63)
 		(uuid "84643b3b-e22c-47ac-a30f-b5d0b5655b76")
-	)
-	(no_connect
-		(at 378.46 173.99)
-		(uuid "848164ed-956d-488b-bbf7-c6d2114a7c46")
 	)
 	(no_connect
 		(at 175.26 146.05)
@@ -5680,16 +5637,6 @@
 			(type default)
 		)
 		(uuid "02ad7fb5-9ba5-4f86-b401-cd4a8ab640af")
-	)
-	(wire
-		(pts
-			(xy 331.47 193.04) (xy 355.6 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e9577a-1a0e-4f47-a062-53048d946cee")
 	)
 	(wire
 		(pts
@@ -6023,16 +5970,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 193.04) (xy 355.6 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb31c41-b99c-466c-9c92-4c7638d6205f")
-	)
-	(wire
-		(pts
 			(xy 182.88 163.83) (xy 157.48 163.83)
 		)
 		(stroke
@@ -6180,16 +6117,6 @@
 			(type default)
 		)
 		(uuid "3b6692df-a38e-408c-aeb2-8962e0e426f3")
-	)
-	(wire
-		(pts
-			(xy 354.33 168.91) (xy 378.46 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1003fc-c915-4b90-9768-ba242add6769")
 	)
 	(wire
 		(pts
@@ -6663,16 +6590,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 191.77) (xy 354.33 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be0b081-61dc-4cce-a086-84885052e63d")
-	)
-	(wire
-		(pts
 			(xy 152.4 106.68) (xy 153.67 106.68)
 		)
 		(stroke
@@ -6973,16 +6890,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 171.45) (xy 378.46 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f793a8a-c1d8-4fe1-aa09-59cc2990d410")
-	)
-	(wire
-		(pts
 			(xy 135.89 275.59) (xy 156.21 275.59)
 		)
 		(stroke
@@ -7133,16 +7040,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 168.91) (xy 354.33 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e7f36a-1987-4803-b20b-54befb428e00")
-	)
-	(wire
-		(pts
 			(xy 151.13 149.86) (xy 143.51 149.86)
 		)
 		(stroke
@@ -7150,16 +7047,6 @@
 			(type default)
 		)
 		(uuid "b533fa82-0ba8-4482-8758-8f95a60f588d")
-	)
-	(wire
-		(pts
-			(xy 364.49 179.07) (xy 378.46 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5bfa20e-0329-42ab-ad76-f7882322a8ba")
 	)
 	(wire
 		(pts
@@ -7890,16 +7777,6 @@
 			(justify left bottom)
 		)
 		(uuid "2884b86d-3f16-4596-ad39-3410f3f0faca")
-	)
-	(label "POT_ANALOG"
-		(at 364.49 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d100ba9-aa0b-4cc4-a580-f766f5ca34a4")
 	)
 	(label "~{CS}3"
 		(at 285.75 248.92 0)
@@ -17235,102 +17112,6 @@
 			(project "fluidics-v2"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 378.46 166.37)
-		(size 20.32 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "357275dc-5cf4-43e0-a736-1f2f3e03e14a")
-		(property "Sheetname" "Manual Control"
-			(at 378.46 165.6584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "manualctrl.kicad_sch"
-			(at 378.46 182.1946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SCL_TCA9539" input
-			(at 378.46 168.91 180)
-			(uuid "53f15236-ccb2-4d7c-b3b1-90ba1545f0d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA_TCA9539" bidirectional
-			(at 378.46 171.45 180)
-			(uuid "60c5b1e6-a6fb-488c-9951-e0f453cf9874")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT}_TCA9539" output
-			(at 378.46 173.99 180)
-			(uuid "4b1591fd-f01f-4d37-8ab2-f54c0aa3aacd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "POT_ANALOG" output
-			(at 378.46 179.07 180)
-			(uuid "08ba1afe-a51e-451d-81a1-9f62e3ca9666")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RST}_TCA9539" input
-			(at 378.46 176.53 180)
-			(uuid "0f5b9fd2-4900-466f-9901-d4ecc858455a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "fluidics-v2"
-				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
-					(page "5")
 				)
 			)
 		)
