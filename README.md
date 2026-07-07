@@ -41,7 +41,7 @@ a PCA9615 differential-I²C link, and UART/logic level shifters.
 ## Repository layout
 
 ```
-fluidics-v2/            KiCad project (schematic, PCB, project-local libraries)
+fluidics-v3/            KiCad project (schematic, PCB, project-local libraries)
   fluidics-v2.kicad_pro   project file — open this in KiCad
   fluidics-v2.kicad_sch   root schematic (hierarchical child sheets alongside)
   fluidics-v2.kicad_pcb   board layout
