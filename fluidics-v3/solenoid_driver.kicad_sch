@@ -960,6 +960,12 @@
 		(uuid "0e6a1dc5-73a8-4554-a6e0-b09d0b819869")
 	)
 	(junction
+		(at 189.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684f1c81-5fec-48e8-9c04-eceb0b877460")
+	)
+	(junction
 		(at 189.23 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -981,19 +987,25 @@
 		(at 165.1 81.28)
 		(uuid "c14e6694-b987-459a-929b-84c0039f1e46")
 	)
-	(no_connect
-		(at 165.1 83.82)
-		(uuid "f0e06ade-f92f-4259-9771-0a580d768763")
-	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 189.23 80.01)
+			(xy 179.07 83.82) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f272fe9-8c89-44a4-9049-d7eb3c6addc6")
+		(uuid "1697ddba-74bd-4d70-ab40-4b3e218add0f")
+	)
+	(wire
+		(pts
+			(xy 182.88 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1436c7-0af3-4c40-a88e-fc7a24d3a5cb")
 	)
 	(wire
 		(pts
@@ -1014,6 +1026,16 @@
 			(type default)
 		)
 		(uuid "415fff02-d2a5-44f8-810a-2782d3f87841")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d45ccf-aef7-4c61-ba2e-f6cd8baac96b")
 	)
 	(wire
 		(pts
@@ -1047,23 +1069,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 175.26 88.9)
+			(xy 179.07 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ab028f-73a4-4463-9c32-2ad6f881d72f")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659e8278-0236-463b-b44a-004f0e72b3c2")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 185.42 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6898bf9b-ec90-4a2d-a21a-41c3ab04c367")
-	)
-	(wire
-		(pts
-			(xy 171.45 77.47) (xy 199.39 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe8fe6a-20a1-4d29-b9d1-1be67903fa32")
 	)
 	(wire
 		(pts
@@ -1077,7 +1109,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 171.45 86.36)
+			(xy 189.23 71.12) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6108b5-f971-43d0-92d3-e50e292a4fa1")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1097,23 +1139,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 171.45 77.47)
+			(xy 199.39 71.12) (xy 189.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f1007e-dacc-405d-a943-6172b6640adc")
+	)
+	(wire
+		(pts
+			(xy 182.88 86.36) (xy 182.88 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0906d0c-2a46-4589-bcc0-4fc3e4a54bda")
-	)
-	(wire
-		(pts
-			(xy 175.26 88.9) (xy 175.26 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a99e1b-542e-42ca-a3b6-2e1b3d142efc")
 	)
 	(wire
 		(pts
@@ -1124,16 +1166,6 @@
 			(type default)
 		)
 		(uuid "bb6248d7-539e-46d1-95b0-b28737f105a6")
-	)
-	(wire
-		(pts
-			(xy 175.26 87.63) (xy 199.39 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7bcca6-2682-4840-80f6-e87e6fed70bf")
 	)
 	(wire
 		(pts
@@ -1167,6 +1199,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 80.01) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90b66ad-f952-4798-956a-d434bed8634b")
+	)
+	(wire
+		(pts
 			(xy 0.0762 0.0762) (xy 0.0762 7.6962)
 		)
 		(stroke
@@ -1174,6 +1216,16 @@
 			(type default)
 		)
 		(uuid "e1e42f42-6f2f-4565-a59b-772888c6bbfd")
+	)
+	(wire
+		(pts
+			(xy 185.42 87.63) (xy 199.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c99674-d03e-4ea6-be17-1d94b78c98c3")
 	)
 	(wire
 		(pts
@@ -1644,6 +1696,88 @@
 			(project "fluidics-v2"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/5697258d-329e-4d0c-a016-1049d92e68d8"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 204.47 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9cc4704-1af3-4470-a49e-8a3202b671d0")
+		(property "Reference" "J7"
+			(at 207.01 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 207.01 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d5fc2ef-7f8e-418d-a94e-4d87924ddf8c")
+		)
+		(pin "2"
+			(uuid "18ab646b-417a-47f9-a79e-4321b4cdd6e3")
+		)
+		(instances
+			(project "fluidics-v2"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/5697258d-329e-4d0c-a016-1049d92e68d8"
+					(reference "J7")
 					(unit 1)
 				)
 			)
