@@ -632,7 +632,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "87832-1010:87832-1010"
+		(symbol "87832-0410:87832-0410"
 			(pin_names
 				(offset 0.762)
 			)
@@ -652,7 +652,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "87832-1010"
+			(property "Value" "87832-0410"
 				(at 19.05 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -663,7 +663,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "878321010"
+			(property "Footprint" "878320410"
 				(at 19.05 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -675,7 +675,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 				(at 19.05 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -687,7 +687,18 @@
 					(justify left)
 				)
 			)
-			(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
 				(at 19.05 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -723,7 +734,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer_Part_Number" "87832-1010"
+			(property "Manufacturer_Part_Number" "87832-0410"
 				(at 19.05 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -735,7 +746,7 @@
 					(justify left)
 				)
 			)
-			(property "Mouser Part Number" "538-87832-1010"
+			(property "Mouser Part Number" ""
 				(at 19.05 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -747,7 +758,7 @@
 					(justify left)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/87832-1010/?qs=vZWlbdSpF0HlUzduEf8ttg%3D%3D"
+			(property "Mouser Price/Stock" ""
 				(at 19.05 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -783,7 +794,7 @@
 					(justify left)
 				)
 			)
-			(symbol "87832-1010_0_0"
+			(symbol "87832-0410_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -856,119 +867,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "87832-1010_0_1"
+			(symbol "87832-0410_0_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -12.7) (xy 5.08 -12.7) (xy 5.08 2.54)
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -5221,22 +5124,6 @@
 		(uuid "f3391fb1-9bf6-4b7e-8f6d-194ff3a5f99d")
 	)
 	(no_connect
-		(at 292.1 90.17)
-		(uuid "04a54a22-56a5-458a-ba25-66969526c575")
-	)
-	(no_connect
-		(at 382.27 85.09)
-		(uuid "0ba507e7-dea8-44b9-9613-52b6e1773036")
-	)
-	(no_connect
-		(at 298.45 87.63)
-		(uuid "0bbe53ed-83c0-447e-8251-b0fa27f539dd")
-	)
-	(no_connect
-		(at 240.03 90.17)
-		(uuid "0d7a0842-a167-4e1f-8b30-ce9c06c70248")
-	)
-	(no_connect
 		(at 284.48 260.35)
 		(uuid "135cedbb-ce99-4b89-9929-6d508a01332f")
 	)
@@ -5253,108 +5140,36 @@
 		(uuid "15b68f9b-be58-480e-a82a-93afb4d211c2")
 	)
 	(no_connect
-		(at 321.31 90.17)
-		(uuid "15c4bb62-71eb-49ba-8d1e-2ee2e49d540e")
-	)
-	(no_connect
-		(at 321.31 85.09)
-		(uuid "1658801c-dd26-44c5-a5ca-5def5cb707bf")
-	)
-	(no_connect
-		(at 327.66 85.09)
-		(uuid "183afde4-058b-4138-9c0b-7175eca0eae1")
-	)
-	(no_connect
-		(at 298.45 90.17)
-		(uuid "1db47d05-f864-4568-990f-0147bcbfa423")
-	)
-	(no_connect
-		(at 359.41 90.17)
-		(uuid "1f4ff6bd-dfb7-4450-b17d-8f1c32bc6e59")
-	)
-	(no_connect
-		(at 321.31 87.63)
-		(uuid "23cc4a19-17ff-4245-a98e-0a8dba5a3f2c")
-	)
-	(no_connect
 		(at 269.24 92.71)
 		(uuid "2cba6603-5dbe-4962-b2b6-59c343212c1e")
-	)
-	(no_connect
-		(at 240.03 87.63)
-		(uuid "34408db8-1c50-485f-bc27-ba63048590b2")
 	)
 	(no_connect
 		(at 398.78 228.6)
 		(uuid "37a7b970-5598-417b-864b-895d31c7f3d4")
 	)
 	(no_connect
-		(at 350.52 87.63)
-		(uuid "39d10879-123c-4d43-978f-a6eaf69f1e74")
-	)
-	(no_connect
-		(at 240.03 85.09)
-		(uuid "3c746c65-6c18-4fe7-8c2b-3a8a74705eff")
-	)
-	(no_connect
 		(at 313.69 228.6)
 		(uuid "441a85d2-ad7e-45be-a9ae-c6fcf53fc441")
-	)
-	(no_connect
-		(at 262.89 90.17)
-		(uuid "4d608a6d-59b8-4fe9-8235-919b8a4ba7e2")
 	)
 	(no_connect
 		(at 260.35 280.67)
 		(uuid "52fbcae0-37bd-4e9f-80b5-7c05c692e5fb")
 	)
 	(no_connect
-		(at 233.68 87.63)
-		(uuid "53c73382-cf1f-4bed-acb3-af3eecdf815f")
-	)
-	(no_connect
 		(at 284.48 265.43)
 		(uuid "5866342f-1460-45da-9f56-c8a78bdfcd35")
-	)
-	(no_connect
-		(at 262.89 85.09)
-		(uuid "5dc52d7a-0304-4e21-9f32-8eddc653f1ee")
 	)
 	(no_connect
 		(at 154.94 238.76)
 		(uuid "5f86ed8c-a77b-4f81-8a32-8f554683e2c1")
 	)
 	(no_connect
-		(at 359.41 87.63)
-		(uuid "5fefd485-5109-43e4-8508-520d5f78a555")
-	)
-	(no_connect
 		(at 326.39 228.6)
 		(uuid "60e5d6bb-c1fc-45bf-ba5a-04d225082998")
 	)
 	(no_connect
-		(at 292.1 85.09)
-		(uuid "617ebbdf-95be-4960-8fc4-6e497f95efc1")
-	)
-	(no_connect
-		(at 327.66 90.17)
-		(uuid "66ece00c-c9d8-410b-9236-928ee93aed47")
-	)
-	(no_connect
 		(at 154.94 264.16)
 		(uuid "6c132b09-d68d-4fe3-9f15-ba87ec333eb0")
-	)
-	(no_connect
-		(at 350.52 85.09)
-		(uuid "6f17c715-a85e-4672-a7ad-b6ab4b6f9d2e")
-	)
-	(no_connect
-		(at 382.27 87.63)
-		(uuid "72b41825-bea4-4d80-bc24-d8bc8847b04d")
-	)
-	(no_connect
-		(at 210.82 90.17)
-		(uuid "75698520-738d-4ed8-89fd-730d7747cacb")
 	)
 	(no_connect
 		(at 228.6 270.51)
@@ -5369,16 +5184,8 @@
 		(uuid "81914927-5b47-4ca0-83c3-f35b7144379c")
 	)
 	(no_connect
-		(at 262.89 87.63)
-		(uuid "84643b3b-e22c-47ac-a30f-b5d0b5655b76")
-	)
-	(no_connect
 		(at 175.26 146.05)
 		(uuid "8e71ca5a-2e21-4ee7-a2a1-8012884e50f5")
-	)
-	(no_connect
-		(at 269.24 90.17)
-		(uuid "8ec50218-6ae6-4453-b03d-d2c133d78f88")
 	)
 	(no_connect
 		(at 361.95 228.6)
@@ -5399,10 +5206,6 @@
 	(no_connect
 		(at 374.65 228.6)
 		(uuid "a31830a3-c28b-44f1-a82d-c6a7e3abb8a3")
-	)
-	(no_connect
-		(at 350.52 90.17)
-		(uuid "a4f524bb-a36e-4b1b-90bb-84a9b721c1e8")
 	)
 	(no_connect
 		(at 157.48 238.76)
@@ -5433,20 +5236,8 @@
 		(uuid "b4e2408e-e01d-42f3-8a43-95220fed4f22")
 	)
 	(no_connect
-		(at 269.24 85.09)
-		(uuid "b6d3d839-0835-4e9c-91ea-70683ef81291")
-	)
-	(no_connect
-		(at 233.68 85.09)
-		(uuid "b928fc72-b7b1-405c-80c3-51720b291a5b")
-	)
-	(no_connect
 		(at 147.32 238.76)
 		(uuid "bc113a96-e6ce-49fc-b2e5-aa4eee688845")
-	)
-	(no_connect
-		(at 233.68 90.17)
-		(uuid "c21a2439-74cd-4c80-a01d-a798f6d938c7")
 	)
 	(no_connect
 		(at 252.73 280.67)
@@ -5463,14 +5254,6 @@
 	(no_connect
 		(at 228.6 262.89)
 		(uuid "caebf42c-a6a3-46b9-a788-e41dcb627a8a")
-	)
-	(no_connect
-		(at 382.27 90.17)
-		(uuid "cbefc38b-1996-49e1-b9e2-a3d648dd410a")
-	)
-	(no_connect
-		(at 359.41 85.09)
-		(uuid "cf80d465-7691-4d2f-be51-a6431044b740")
 	)
 	(no_connect
 		(at 152.4 264.16)
@@ -5497,16 +5280,8 @@
 		(uuid "e8301c96-1eee-463c-8458-c4218c180bc2")
 	)
 	(no_connect
-		(at 327.66 87.63)
-		(uuid "e898b60c-eded-4f63-9a56-2c113040039a")
-	)
-	(no_connect
 		(at 284.48 257.81)
 		(uuid "e99da6fe-1212-446a-9724-2cb6030de552")
-	)
-	(no_connect
-		(at 269.24 87.63)
-		(uuid "ec1069bc-7819-44c2-9324-5bc58fb24daf")
 	)
 	(no_connect
 		(at 284.48 267.97)
@@ -5521,32 +5296,16 @@
 		(uuid "ef4a171b-309a-42b0-96d5-8dcef45300c1")
 	)
 	(no_connect
-		(at 292.1 87.63)
-		(uuid "efccbeab-d11c-4b89-b561-07b9edba8ed3")
-	)
-	(no_connect
 		(at 284.48 198.12)
 		(uuid "f2dc342b-302c-4bc6-a116-b174943df230")
-	)
-	(no_connect
-		(at 210.82 87.63)
-		(uuid "f56d8767-bd79-4933-b62f-5e2b99460f64")
 	)
 	(no_connect
 		(at 228.6 273.05)
 		(uuid "f64c5fea-bc4b-4b55-8fc6-8b69f1406fea")
 	)
 	(no_connect
-		(at 210.82 85.09)
-		(uuid "f905e9c6-eea9-452a-98b1-8168ed492fec")
-	)
-	(no_connect
 		(at 284.48 270.51)
 		(uuid "f9a26702-b5bf-473e-999a-42d258c4c736")
-	)
-	(no_connect
-		(at 298.45 85.09)
-		(uuid "fc43f120-08a9-46a8-b8f7-fd4ccbf98805")
 	)
 	(no_connect
 		(at 298.45 92.71)
@@ -8907,7 +8666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "87832-1010:87832-1010")
+		(lib_id "87832-0410:87832-0410")
 		(at 359.41 95.25 0)
 		(mirror x)
 		(unit 1)
@@ -8920,7 +8679,7 @@
 		(fields_autoplaced yes)
 		(uuid "0910b406-846b-4f76-854f-489c5a950a8e")
 		(property "Reference" "J25"
-			(at 370.84 102.87 0)
+			(at 370.84 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8929,8 +8688,8 @@
 				)
 			)
 		)
-		(property "Value" "87832-1010"
-			(at 370.84 100.33 0)
+		(property "Value" "87832-0410"
+			(at 370.84 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8939,7 +8698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "molex_connectors:878321010"
+		(property "Footprint" "molex_connectors:878320410"
 			(at 378.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8951,7 +8710,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 			(at 378.46 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8964,7 +8723,7 @@
 			)
 		)
 		(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
-			(at 378.46 92.71 0)
+			(at 359.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,7 +8731,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Height" "6.6"
@@ -8999,7 +8757,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-1010"
+		(property "Manufacturer_Part_Number" "87832-0410"
 			(at 378.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9059,11 +8817,20 @@
 				(justify left)
 			)
 		)
+		(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
+			(at 378.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "2a62424c-9723-4d20-a1b2-4e0546c5d42a")
-		)
-		(pin "10"
-			(uuid "7f5c5f1f-2dd5-40db-a2f9-a7f8a5ca9628")
 		)
 		(pin "2"
 			(uuid "1d8e4a9e-7131-491e-9375-a27fa8df7765")
@@ -9073,21 +8840,6 @@
 		)
 		(pin "4"
 			(uuid "ccedf11e-29c7-4237-8e8b-3a4a31cca97b")
-		)
-		(pin "5"
-			(uuid "cd5cf791-202b-41fa-8736-13dc3c9e6f64")
-		)
-		(pin "6"
-			(uuid "a3cd00e0-c1ff-44c9-8241-87d80dc3f9b4")
-		)
-		(pin "7"
-			(uuid "dc373e33-bf18-4360-a21c-314d48e17657")
-		)
-		(pin "8"
-			(uuid "90c1d3f6-9581-4129-8d75-92b27e3810a3")
-		)
-		(pin "9"
-			(uuid "76b37c35-65e3-4a9e-8d3d-684c480799fb")
 		)
 		(instances
 			(project "fluidics-v2"
@@ -9916,7 +9668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "87832-1010:87832-1010")
+		(lib_id "87832-0410:87832-0410")
 		(at 327.66 95.25 0)
 		(mirror x)
 		(unit 1)
@@ -9929,7 +9681,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f768875-ba55-40ed-882b-ae34d74fa508")
 		(property "Reference" "J21"
-			(at 339.09 102.87 0)
+			(at 339.09 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9938,8 +9690,8 @@
 				)
 			)
 		)
-		(property "Value" "87832-1010"
-			(at 339.09 100.33 0)
+		(property "Value" "87832-0410"
+			(at 339.09 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9948,7 +9700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "molex_connectors:878321010"
+		(property "Footprint" "molex_connectors:878320410"
 			(at 346.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9960,7 +9712,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 			(at 346.71 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9973,7 +9725,7 @@
 			)
 		)
 		(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
-			(at 346.71 92.71 0)
+			(at 327.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,7 +9733,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Height" "6.6"
@@ -10008,7 +9759,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-1010"
+		(property "Manufacturer_Part_Number" "87832-0410"
 			(at 346.71 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10068,11 +9819,20 @@
 				(justify left)
 			)
 		)
+		(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
+			(at 346.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "45456b1f-0287-4541-996e-0d2a871687fe")
-		)
-		(pin "10"
-			(uuid "db8cd0bf-2d5f-4497-91bb-688e5b96509f")
 		)
 		(pin "2"
 			(uuid "67a1baf3-0dbc-4a7c-906c-90f52ea60260")
@@ -10082,21 +9842,6 @@
 		)
 		(pin "4"
 			(uuid "9466374c-64a2-4958-b252-2acdce95a73f")
-		)
-		(pin "5"
-			(uuid "1a814e10-1137-4c7a-a39c-d4125c69c375")
-		)
-		(pin "6"
-			(uuid "8b3dcbe8-588a-415a-bd70-8c8097fe2f2b")
-		)
-		(pin "7"
-			(uuid "67972157-db50-4c60-8688-e6750a98edd0")
-		)
-		(pin "8"
-			(uuid "3f1fe876-a384-4b48-8bca-f9ca6b99c400")
-		)
-		(pin "9"
-			(uuid "78e7cecc-d227-41f8-848e-b5bb6282e5b4")
 		)
 		(instances
 			(project "fluidics-v2"
@@ -10279,7 +10024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "87832-1010:87832-1010")
+		(lib_id "87832-0410:87832-0410")
 		(at 298.45 95.25 0)
 		(mirror x)
 		(unit 1)
@@ -10292,7 +10037,7 @@
 		(fields_autoplaced yes)
 		(uuid "3548e0be-9aec-403e-80bd-f8c5205e3fa9")
 		(property "Reference" "J18"
-			(at 309.88 102.87 0)
+			(at 309.88 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10301,8 +10046,8 @@
 				)
 			)
 		)
-		(property "Value" "87832-1010"
-			(at 309.88 100.33 0)
+		(property "Value" "87832-0410"
+			(at 309.88 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10311,7 +10056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "molex_connectors:878321010"
+		(property "Footprint" "molex_connectors:878320410"
 			(at 317.5 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10323,7 +10068,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 			(at 317.5 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10336,7 +10081,7 @@
 			)
 		)
 		(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
-			(at 317.5 92.71 0)
+			(at 298.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,7 +10089,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Height" "6.6"
@@ -10371,7 +10115,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-1010"
+		(property "Manufacturer_Part_Number" "87832-0410"
 			(at 317.5 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10431,11 +10175,20 @@
 				(justify left)
 			)
 		)
+		(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
+			(at 317.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "920ba38c-aa83-4547-80a6-becb3256010c")
-		)
-		(pin "10"
-			(uuid "79525599-3642-46fc-9188-8387215a4a43")
 		)
 		(pin "2"
 			(uuid "4c3f7a65-c904-4d30-a12c-939691007c46")
@@ -10445,21 +10198,6 @@
 		)
 		(pin "4"
 			(uuid "febd81d2-85c4-4e6e-b465-e101899237f7")
-		)
-		(pin "5"
-			(uuid "85ec2c27-7074-4015-ba75-e73cdff7d6c4")
-		)
-		(pin "6"
-			(uuid "cc1947a4-0890-455e-8002-5fee0871ccbf")
-		)
-		(pin "7"
-			(uuid "aa5ad553-d3d5-4f9a-b40d-9ec34a2843aa")
-		)
-		(pin "8"
-			(uuid "d3871ff6-c36c-4aab-b91b-7a20444649bb")
-		)
-		(pin "9"
-			(uuid "087f5e7d-a4c8-42b2-be6a-fef19bf25608")
 		)
 		(instances
 			(project "fluidics-v2"
@@ -11070,7 +10808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "87832-1010:87832-1010")
+		(lib_id "87832-0410:87832-0410")
 		(at 269.24 95.25 0)
 		(mirror x)
 		(unit 1)
@@ -11083,7 +10821,7 @@
 		(fields_autoplaced yes)
 		(uuid "43e60a5f-7366-4e76-9c18-f2bd0ae05ba7")
 		(property "Reference" "J14"
-			(at 280.67 102.87 0)
+			(at 280.67 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11092,8 +10830,8 @@
 				)
 			)
 		)
-		(property "Value" "87832-1010"
-			(at 280.67 100.33 0)
+		(property "Value" "87832-0410"
+			(at 280.67 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11102,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "molex_connectors:878321010"
+		(property "Footprint" "molex_connectors:878320410"
 			(at 288.29 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11114,7 +10852,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 			(at 288.29 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11127,7 +10865,7 @@
 			)
 		)
 		(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
-			(at 288.29 92.71 0)
+			(at 269.24 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11135,7 +10873,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Height" "6.6"
@@ -11162,7 +10899,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-1010"
+		(property "Manufacturer_Part_Number" "87832-0410"
 			(at 288.29 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11222,11 +10959,20 @@
 				(justify left)
 			)
 		)
+		(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
+			(at 288.29 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "727bff02-86a6-4a17-8279-ed6985466a50")
-		)
-		(pin "10"
-			(uuid "e07b40a5-448a-4e9a-be8e-7109ba51ae45")
 		)
 		(pin "2"
 			(uuid "36610dd8-cb87-4b6b-bdd6-6a3b18fc7a04")
@@ -11236,21 +10982,6 @@
 		)
 		(pin "4"
 			(uuid "2159da42-3a5f-46b4-a223-46e8e02af4d0")
-		)
-		(pin "5"
-			(uuid "9449bd42-50d3-4b13-b30e-186acd586930")
-		)
-		(pin "6"
-			(uuid "7a198a6e-ce3e-4610-b913-f1a1cd977615")
-		)
-		(pin "7"
-			(uuid "a8502bb9-31f7-437a-a820-20d24ecf068f")
-		)
-		(pin "8"
-			(uuid "9f6b4c3a-ff92-4442-9f9e-6f54bab84e6b")
-		)
-		(pin "9"
-			(uuid "039f2e92-203e-46d6-85ff-991ee2226e58")
 		)
 		(instances
 			(project "fluidics-v2"
@@ -13520,7 +13251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "87832-1010:87832-1010")
+		(lib_id "87832-0410:87832-0410")
 		(at 240.03 95.25 0)
 		(mirror x)
 		(unit 1)
@@ -13533,7 +13264,7 @@
 		(fields_autoplaced yes)
 		(uuid "78cffa2b-2cee-4198-a614-be38d77e5fcc")
 		(property "Reference" "J12"
-			(at 251.46 102.87 0)
+			(at 251.46 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13542,8 +13273,8 @@
 				)
 			)
 		)
-		(property "Value" "87832-1010"
-			(at 251.46 100.33 0)
+		(property "Value" "87832-0410"
+			(at 251.46 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13552,7 +13283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "molex_connectors:878321010"
+		(property "Footprint" "molex_connectors:878320410"
 			(at 259.08 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13564,7 +13295,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 			(at 259.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13577,7 +13308,7 @@
 			)
 		)
 		(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
-			(at 259.08 92.71 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13585,7 +13316,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Height" "6.6"
@@ -13612,7 +13342,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-1010"
+		(property "Manufacturer_Part_Number" "87832-0410"
 			(at 259.08 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13672,11 +13402,20 @@
 				(justify left)
 			)
 		)
+		(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
+			(at 259.08 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "a1b7656d-c52a-493b-8ff3-68feced5afcf")
-		)
-		(pin "10"
-			(uuid "b8425de1-e316-41b8-9fda-531ccba73476")
 		)
 		(pin "2"
 			(uuid "b06c57c9-d135-4873-9202-b66197c5dd36")
@@ -13686,21 +13425,6 @@
 		)
 		(pin "4"
 			(uuid "982cc7ec-bb4a-4df5-b1de-cafcb0167ab1")
-		)
-		(pin "5"
-			(uuid "866af558-6259-4c34-9ec4-d1be67f5bf3e")
-		)
-		(pin "6"
-			(uuid "cf353cd7-e06b-4451-9469-17032132a735")
-		)
-		(pin "7"
-			(uuid "8f8d0200-41bd-428e-b960-e5209f21f165")
-		)
-		(pin "8"
-			(uuid "a03a59fe-c68e-4815-9bf5-a34a661aa287")
-		)
-		(pin "9"
-			(uuid "546f3db1-dafd-4028-86b9-caef06eb3bff")
 		)
 		(instances
 			(project "fluidics-v2"
@@ -16980,7 +16704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "87832-1010:87832-1010")
+		(lib_id "87832-0410:87832-0410")
 		(at 210.82 95.25 0)
 		(mirror x)
 		(unit 1)
@@ -16993,7 +16717,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0252a3b-fd85-4d51-9a2d-9923066cad9d")
 		(property "Reference" "J10"
-			(at 222.25 102.87 0)
+			(at 222.25 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17002,8 +16726,8 @@
 				)
 			)
 		)
-		(property "Value" "87832-1010"
-			(at 222.25 100.33 0)
+		(property "Value" "87832-0410"
+			(at 222.25 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17012,7 +16736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "molex_connectors:878321010"
+		(property "Footprint" "molex_connectors:878320410"
 			(at 229.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17024,7 +16748,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/0878321010_PCB_HEADERS-176533.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/878320410"
 			(at 229.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17037,7 +16761,7 @@
 			)
 		)
 		(property "Description" "Molex Milli-Grid 87832, 10 Way, 2 Row, Straight PCB Header"
-			(at 229.87 92.71 0)
+			(at 210.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17045,7 +16769,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Height" "6.6"
@@ -17072,7 +16795,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "87832-1010"
+		(property "Manufacturer_Part_Number" "87832-0410"
 			(at 229.87 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17132,11 +16855,20 @@
 				(justify left)
 			)
 		)
+		(property "Description_1" "Molex Milli-Grid 87832, 4 Way, 2 Row, Straight PCB Header"
+			(at 229.87 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "cf527156-ed78-4714-b8c0-a62fd7c0751f")
-		)
-		(pin "10"
-			(uuid "cd9f5712-3cc6-44f9-985e-0d60a53528f3")
 		)
 		(pin "2"
 			(uuid "2223df3d-73b9-4063-871f-8c50701665d9")
@@ -17146,21 +16878,6 @@
 		)
 		(pin "4"
 			(uuid "a867dc33-b69a-4be9-a631-8fc8d756f3a3")
-		)
-		(pin "5"
-			(uuid "f1725349-32fe-46e9-8e45-2fa587a719ce")
-		)
-		(pin "6"
-			(uuid "ed1098f4-e306-4bcf-a806-0fad973c2a29")
-		)
-		(pin "7"
-			(uuid "709d8bcb-c89b-4e1f-ad4b-137609bd05ff")
-		)
-		(pin "8"
-			(uuid "a791c37b-dda0-4c83-8611-a8dfcc99e5bd")
-		)
-		(pin "9"
-			(uuid "219581cc-b55d-49e9-a20f-6fbf042b8850")
 		)
 		(instances
 			(project "fluidics-v2"
