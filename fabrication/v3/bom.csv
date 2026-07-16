@@ -9,7 +9,7 @@
 "D2-D4","LED","LED_SMD:LED_0805_2012Metric","3",""
 "D9-D12","LED","LED_SMD:LED_0402_1005Metric","4",""
 "D21","B340-13-F","Diode_SMD:D_SMC","1",""
-"H2-H4","MountingHole_Pad","MountingHole:MountingHole_2.2mm_M2_Pad_Via","3",""
+"H2-H4","MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","3",""
 "IC2","ADUM1250WSRZ-RL7","analog_devices:SOIC127P600X175-8N","1",""
 "J1","PJ-063AH","barreljack:CUI_PJ-063AH","1",""
 "J2,J4","B6B-ZR-SM4-TF","B6B-ZR-SM4-TF:CONN_B6B-ZR-SM4-TF_JST","2",""

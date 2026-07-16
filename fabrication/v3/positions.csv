@@ -27,9 +27,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D11","LED","LED_0402_1005Metric",173.061280,-108.028000,0.000000,top
 "D12","LED","LED_0402_1005Metric",173.000000,-99.000000,0.000000,top
 "D21","B340-13-F","D_SMC",178.102000,-25.930000,-90.000000,top
-"H2","MountingHole_Pad","MountingHole_2.2mm_M2_Pad_Via",115.035280,-38.631000,0.000000,top
-"H3","MountingHole_Pad","MountingHole_2.2mm_M2_Pad_Via",185.500000,-112.500000,0.000000,top
-"H4","MountingHole_Pad","MountingHole_2.2mm_M2_Pad_Via",115.000000,-112.000000,0.000000,top
+"H2","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",114.000000,-38.631000,0.000000,top
+"H3","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",188.697056,-111.697056,0.000000,top
+"H4","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",115.000000,-112.000000,0.000000,top
 "IC2","ADUM1250WSRZ-RL7","SOIC127P600X175-8N",128.751280,-42.060000,180.000000,top
 "J1","PJ-063AH","CUI_PJ-063AH",157.707280,-30.613000,90.000000,top
 "J2","B6B-ZR-SM4-TF","CONN_B6B-ZR-SM4-TF_JST",127.864780,-99.353001,90.000000,top
