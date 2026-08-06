@@ -6758,6 +6758,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9567,6 +9568,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9771,6 +9773,7 @@
 				(pins "1" "2")
 			)
 		)
+		(attr exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.57 0.4)
@@ -10928,7 +10931,7 @@
 				(pins "1" "2" "5" "3" "6" "4")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.802 -1.227)
@@ -13078,6 +13081,7 @@
 				(pins "1" "2")
 			)
 		)
+		(attr exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.53 0.9)
@@ -16410,7 +16414,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16556,6 +16560,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.95 -0.95)
@@ -20311,6 +20316,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23201,19 +23207,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+3.3V CAP"
-		(at 159 92 180)
-		(layer "F.SilkS")
-		(uuid "379afe0e-a4bb-4505-8a82-560a248d367b")
-		(effects
-			(font
-				(size 0.6 0.8)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Selector Valves"
 		(at 129 67 0)
 		(layer "F.SilkS")
@@ -23267,6 +23260,19 @@
 				(size 0.8 0.8)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "+3.3V CAP"
+		(at 159 92 180)
+		(layer "F.SilkS")
+		(uuid "379afe0e-a4bb-4505-8a82-560a248d367b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "J10"
@@ -30302,6 +30308,14 @@
 		(uuid "a7deaef9-2ba0-40ac-a44f-5a82cc1278b6")
 	)
 	(segment
+		(start 184.2 60.22)
+		(end 187.5 60.22)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/POT_ANALOG")
+		(uuid "ffb03cc6-8670-4072-9649-3c58ebdba9e8")
+	)
+	(segment
 		(start 184.2 52.6)
 		(end 187.5 52.6)
 		(width 0.25)
@@ -30534,14 +30548,6 @@
 		(layer "F.Cu")
 		(net "/Bubble Sensors/Calib 1 5V")
 		(uuid "c581d671-a435-4ed5-a413-f2e5781ac158")
-	)
-	(segment
-		(start 184.2 60.22)
-		(end 187.5 60.22)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/POT_ANALOG")
-		(uuid "ffb03cc6-8670-4072-9649-3c58ebdba9e8")
 	)
 	(zone
 		(net "GND")

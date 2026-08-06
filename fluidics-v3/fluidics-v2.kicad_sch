@@ -10619,7 +10619,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "05bb8dfd-7df3-4417-b3e6-ee8ce14fd05e")
 		(property "Reference" "H2"
@@ -11443,7 +11443,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "229aa1b4-e47e-4cf9-a70f-df41b08e8742")
 		(property "Reference" "H4"
@@ -11923,7 +11923,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2da2213e-8d5d-4fc6-8e79-28e02b065a86")
@@ -13516,7 +13516,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "45987785-060a-475c-8bd2-8e3631a1ab9c")
 		(property "Reference" "TP2"
@@ -16565,7 +16565,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7c94caed-b1df-46b9-8879-8c4da3ca4356")
 		(property "Reference" "TP1"
@@ -18797,7 +18797,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cb3bceb6-b14d-4c0f-91ba-be9c63beef75")
 		(property "Reference" "H3"

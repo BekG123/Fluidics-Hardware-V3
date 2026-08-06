@@ -2337,7 +2337,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4bea6213-e567-435f-bf98-fa07ff4244f1")
 		(property "Reference" "R1"
 			(at 106.426 73.66 90)
@@ -3197,7 +3197,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c682454c-c9ea-46fe-94a3-03266b35ee3b")
 		(property "Reference" "U6"
