@@ -14695,7 +14695,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket_1x24_2.54mm_SMT"
+		(property "Value" "SSM-124-L-SV"
 			(at 0 32.08 0)
 			(layer "F.Fab")
 			(uuid "8f473b09-1920-41b9-94a4-1dafad71478a")
@@ -17107,7 +17107,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket_1x24_2.54mm_SMT"
+		(property "Value" "SSM-124-L-SV"
 			(at 0 32.08 0)
 			(layer "F.Fab")
 			(uuid "a283d716-3f3e-4ca3-8666-296ee2406198")

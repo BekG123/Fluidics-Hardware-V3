@@ -15,7 +15,7 @@
 "J2,J4","B6B-ZR-SM4-TF","B6B-ZR-SM4-TF:CONN_B6B-ZR-SM4-TF_JST","2",""
 "J3","A-DS_15_A_KG-T4S","db15:ADS15AKGT4S","1",""
 "J5","Screw_Terminal_01x06","TerminalBlock:TerminalBlock_Xinya_XY308-2.54-6P_1x06_P2.54mm_Horizontal","1",""
-"J6,J7","Socket_1x24_2.54mm_SMT","teensy4.1:PinSocket_1x24_P2.54mm_Vertical_SMD_DualLand","2",""
+"J6,J7","SSM-124-L-SV","teensy4.1:PinSocket_1x24_P2.54mm_Vertical_SMD_DualLand","2",""
 "J10,J12,J14,J18,J21,J25","87832-0410","molex_connectors:878320410","6",""
 "J11,J13,J16,J19,J22,J24","0705430001","molex_connectors:SHDR2W64P0X254_1X2_737X660X1181P","6",""
 "J15,J17,J20","0533980671","molex_connectors:MOLEX_0533980671","3",""

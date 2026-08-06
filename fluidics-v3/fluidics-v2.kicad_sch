@@ -14379,7 +14379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Socket_1x24_2.54mm_SMT"
+		(property "Value" "SSM-124-L-SV"
 			(at 97.536 210.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14604,7 +14604,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket_1x24_2.54mm_SMT"
+		(property "Value" "SSM-124-L-SV"
 			(at 55.88 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
