@@ -32,7 +32,7 @@
 "TP3","TestPoint","TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm","1",""
 "U1","TPL7407LDR","TPL7407LDR:SOIC127P600X175-16N","1",""
 "U2","Teensy4.1","teensy4.1:Teensy 4.1","1",""
-"U3","AP7366EA-33W5-7","Package_TO_SOT_SMD:SOT-23-5","1",""
+"U3","AP2112K-3.3TRG1","Package_TO_SOT_SMD:SOT-23-5","1",""
 "U4","D24V10FX","pololu:D24V10FX","1",""
 "U6","LTC4311CSC6-TRPBF","LTC:SOT-6_SC_LIT-L","1","DNP"
 "U11","MAX3221","MAX232:SOP65P640X120-16N","1",""

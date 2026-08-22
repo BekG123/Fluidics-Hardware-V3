@@ -3103,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7366EA-33W5-7"
+		(property "Value" "AP2112K-3.3TRG1"
 			(at 27.94 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -16841,7 +16841,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7366EA-33W5-7"
+		(property "Value" "AP2112K-3.3TRG1"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "28ab9022-7a83-4a6f-9ddc-b1a130a48e5f")
