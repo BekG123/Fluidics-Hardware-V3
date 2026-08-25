@@ -6775,6 +6775,14 @@
 		(uuid "f3391fb1-9bf6-4b7e-8f6d-194ff3a5f99d")
 	)
 	(no_connect
+		(at 60.96 271.78)
+		(uuid "7f134169-ba60-4935-bf45-a53f41af9963")
+	)
+	(no_connect
+		(at 284.48 251.46)
+		(uuid "b82bfb42-6a18-40cc-a5a2-f21bcbaa9964")
+	)
+	(no_connect
 		(at 101.6 248.92)
 		(uuid "05a73526-cadf-448b-bbe1-e504846d3099")
 	)
@@ -7033,16 +7041,6 @@
 			(type default)
 		)
 		(uuid "01eaa861-d25d-4e86-b64d-b54aa43f62cf")
-	)
-	(wire
-		(pts
-			(xy 116.84 154.94) (xy 128.27 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02628d41-c744-4410-aed8-a5d6a9aef6c5")
 	)
 	(wire
 		(pts
@@ -9204,16 +9202,6 @@
 		)
 		(uuid "03b3d293-138d-4b03-93f2-e2346443c76a")
 	)
-	(label "PG-5V"
-		(at 119.38 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "041b47a3-cdcb-482b-b76a-12bb1a0427cb")
-	)
 	(label "GPIO_9"
 		(at 228.6 205.74 180)
 		(effects
@@ -9363,16 +9351,6 @@
 			(justify right bottom)
 		)
 		(uuid "26b3f8e8-ca88-4a67-84ac-9651d9b5fbba")
-	)
-	(label "PG-5V"
-		(at 284.48 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2884b86d-3f16-4596-ad39-3410f3f0faca")
 	)
 	(label "~{CS}3"
 		(at 285.75 248.92 0)
@@ -10213,16 +10191,6 @@
 			(justify left bottom)
 		)
 		(uuid "e60c684f-74c8-4166-9168-72b2b9ad2fcc")
-	)
-	(label "PG-5V"
-		(at 60.96 271.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea8e2ca4-31b7-4823-8b69-3eb9cf0dfbe4")
 	)
 	(label "PG-12V"
 		(at 228.6 251.46 180)
@@ -20590,16 +20558,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "PG-5V" output
-			(at 116.84 154.94 0)
-			(uuid "7687fbb0-f7db-474d-848d-2945d71d5fa6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "PG-12V" output

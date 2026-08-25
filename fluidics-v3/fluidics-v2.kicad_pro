@@ -842,7 +842,7 @@
         "uuid": "0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
       }
     ],
-    "used_designators": "J6-7",
+    "used_designators": "J6-7,U4-5,#PWR6,#PWR21,#PWR60",
     "variants": []
   },
   "sheets": [
