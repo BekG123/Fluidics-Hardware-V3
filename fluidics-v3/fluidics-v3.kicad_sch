@@ -6809,7 +6809,7 @@
 	)
 	(text "Specifically for Kaomer syringe pump RS-232 interface"
 		(exclude_from_sim no)
-		(at 27.94 229.87 0)
+		(at 26.416 230.378 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14231,17 +14231,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PJ-063AH"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Footprint" "barreljack:CUI_PJ-063AH"
 			(at 53.34 45.72 0)
 			(hide yes)
@@ -14268,6 +14257,17 @@
 		)
 		(property "Description" ""
 			(at 53.34 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PJ-063AH"
+			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
