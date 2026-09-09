@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-08-25T19:51:01-07:00"
+    "CreationDate": "2026-09-08T22:32:03-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "fluidics-v2",
-      "GUID": "666c7569-6469-4637-932d-76322e6b6963",
+      "Name": "fluidics-v3",
+      "GUID": "666c7569-6469-4637-932d-76332e6b6963",
       "Revision": "rev?"
     },
     "Size": {
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "fluidics-v2-Front.gbr",
+      "Path": "fluidics-v3-Front.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-In1_Cu.gbr",
+      "Path": "fluidics-v3-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-In2_Cu.gbr",
+      "Path": "fluidics-v3-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-Back.gbr",
+      "Path": "fluidics-v3-Back.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-F_Paste.gbr",
+      "Path": "fluidics-v3-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-B_Paste.gbr",
+      "Path": "fluidics-v3-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-F_Silkscreen.gbr",
+      "Path": "fluidics-v3-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-B_Silkscreen.gbr",
+      "Path": "fluidics-v3-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fluidics-v2-F_Mask.gbr",
+      "Path": "fluidics-v3-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "fluidics-v2-B_Mask.gbr",
+      "Path": "fluidics-v3-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "fluidics-v2-Edge_Cuts.gbr",
+      "Path": "fluidics-v3-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

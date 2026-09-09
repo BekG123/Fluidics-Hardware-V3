@@ -496,7 +496,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -518,7 +518,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fluidics-v2.kicad_pro",
+    "filename": "fluidics-v3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -837,7 +837,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "fluidics-v2.kicad_sch",
+        "filename": "fluidics-v3.kicad_sch",
         "name": "fluidics-v3",
         "uuid": "0ec91c42-8aad-437d-8c85-5e10f0e51fe0"
       }
@@ -881,10 +881,6 @@
     [
       "f2389ff6-1cd8-47ea-9589-49f16bb8c559",
       "Bubble Sensors"
-    ],
-    [
-      "978ef52c-7a59-4000-92fc-4e58ca2b1aa7",
-      "Sensors"
     ]
   ],
   "text_variables": {},

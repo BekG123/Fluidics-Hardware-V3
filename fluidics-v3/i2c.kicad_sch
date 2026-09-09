@@ -369,7 +369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 156.21 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -419,7 +419,7 @@
 			(uuid "28b02532-b5b7-40b5-8d6a-ba61b8dd5d53")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/b627bb7a-5c26-4d4a-8ee1-9b58f0107eeb"
 					(reference "R42")
 					(unit 1)
@@ -457,7 +457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 140.97 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -507,7 +507,7 @@
 			(uuid "c1a894ae-1b33-4e98-b19a-543f41dc0e77")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/b627bb7a-5c26-4d4a-8ee1-9b58f0107eeb"
 					(reference "R41")
 					(unit 1)
@@ -592,7 +592,7 @@
 			(uuid "ddfa95a9-77bc-4f26-916b-08e3863ac1b9")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/b627bb7a-5c26-4d4a-8ee1-9b58f0107eeb"
 					(reference "#PWR0133")
 					(unit 1)
@@ -677,7 +677,7 @@
 			(uuid "45875bea-e050-4837-8cdf-96d1bcb1eaa4")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/b627bb7a-5c26-4d4a-8ee1-9b58f0107eeb"
 					(reference "#PWR0134")
 					(unit 1)

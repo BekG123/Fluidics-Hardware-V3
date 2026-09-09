@@ -1752,6 +1752,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 68.58 41.91)
@@ -1821,6 +1936,12 @@
 			(justify left bottom)
 		)
 		(uuid "f62083a8-9a47-4e69-9df5-20459b04b530")
+	)
+	(junction
+		(at 22.86 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34a6afc7-f9a5-4ead-8480-59977b882da2")
 	)
 	(junction
 		(at 19.05 52.07)
@@ -1959,7 +2080,7 @@
 			(uuid "dd88d207-71ef-4c15-98c0-595692afe2a3")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR062")
 					(unit 1)
@@ -2038,7 +2159,7 @@
 			(uuid "746b8e7c-ff0b-4357-9f3e-50bf1d00b9f3")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR060")
 					(unit 1)
@@ -2140,7 +2261,7 @@
 			(uuid "881f0c7e-81f9-4bdd-9d49-83c073d69d35")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "D2")
 					(unit 1)
@@ -2222,9 +2343,87 @@
 			(uuid "908e88a7-8bbf-4a44-8765-c981633bdf7b")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 22.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21dbd3a6-d7f7-498d-be87-6f49e4bf5305")
+		(property "Reference" "#FLG03"
+			(at 22.86 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a845c329-acfc-4076-a604-e36228b64a8c")
+		)
+		(instances
+			(project "fluidics-v3"
+				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2523,7 @@
 			(uuid "2663ff5e-b79c-47b9-885c-00bc258b2f18")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "D3")
 					(unit 1)
@@ -2409,7 +2608,7 @@
 			(uuid "9a209b7a-d93b-431d-b7e7-1a209f74c244")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR06")
 					(unit 1)
@@ -2486,7 +2685,7 @@
 			(uuid "d89fd671-3b21-4785-b361-53789001bd04")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR065")
 					(unit 1)
@@ -2566,7 +2765,7 @@
 			(uuid "dfb333ae-816b-4726-8ecc-7dcf309fc897")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "C2")
 					(unit 1)
@@ -2643,7 +2842,7 @@
 			(uuid "7e1556cf-db03-4c6d-adfa-0fbdcadced7f")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR067")
 					(unit 1)
@@ -2716,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RT0603DRD07680RL"
+		(property "Manufacturer_Part_Number" "RC0805FR-075K6L"
 			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2734,7 +2933,7 @@
 			(uuid "93b2d6b6-7b1b-4dee-8c08-e17f6799294c")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "R3")
 					(unit 1)
@@ -2820,7 +3019,7 @@
 			(uuid "5107cb0e-e5f8-498d-8654-a4e4b162bfe9")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "C1")
 					(unit 1)
@@ -2904,7 +3103,7 @@
 			(uuid "3b1ec3c5-1bfe-4d01-8dbe-c7870528ea39")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "U4")
 					(unit 1)
@@ -2981,7 +3180,7 @@
 			(uuid "ffead62b-96b5-4f4b-ade1-6e7aa09a9129")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR066")
 					(unit 1)
@@ -3057,7 +3256,7 @@
 			(uuid "ba76ed50-0e75-46ca-9e0d-500f5b9a3e21")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR076")
 					(unit 1)
@@ -3139,7 +3338,7 @@
 			(uuid "3f62f659-c8f4-48ce-a538-e4cc81b8d2e1")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR077")
 					(unit 1)
@@ -3218,7 +3417,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-074K7L"
+		(property "Manufacturer_Part_Number" "RC0402FR-0747KL"
 			(at 101.6 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3236,7 +3435,7 @@
 			(uuid "db009685-ab9d-4d4b-9e24-d03e13de0869")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "R4")
 					(unit 1)
@@ -3321,7 +3520,7 @@
 			(uuid "2db30855-92e8-40c9-af08-32920ce53a17")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR021")
 					(unit 1)
@@ -3397,7 +3596,7 @@
 			(uuid "a697b014-0b68-4437-89e7-5c270b7e6a81")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR079")
 					(unit 1)
@@ -3491,7 +3690,7 @@
 			(uuid "fde6f72f-4f9f-40e9-8ecf-a2c16e99db10")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "U3")
 					(unit 1)
@@ -3567,7 +3766,7 @@
 			(uuid "4fa16e7c-47bc-4d9a-863e-17a830c816b1")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR073")
 					(unit 1)
@@ -3675,7 +3874,7 @@
 			(uuid "b259fbc2-0d5e-4baf-95c5-dfd9925e05c0")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "D4")
 					(unit 1)
@@ -3757,7 +3956,7 @@
 			(uuid "0b6e0fa4-c418-4214-9736-e049ec2c2279")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR072")
 					(unit 1)
@@ -3839,7 +4038,7 @@
 			(uuid "359d8a65-c87e-4274-850a-d5f22cb8103d")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "#PWR078")
 					(unit 1)
@@ -3912,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07270RL"
+		(property "Manufacturer_Part_Number" "RC0402FR-073KL"
 			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3930,7 +4129,7 @@
 			(uuid "f29a97d7-a7a7-4f13-b3ab-6906d2668790")
 		)
 		(instances
-			(project "fluidics-v2"
+			(project "fluidics-v3"
 				(path "/0ec91c42-8aad-437d-8c85-5e10f0e51fe0/3165fef8-6560-4a32-9d6f-43437086a53c"
 					(reference "R5")
 					(unit 1)

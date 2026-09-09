@@ -9,3 +9,12 @@ _autosave-*
 # KiCad auto-backups & footprint cache (regenerated locally)
 *-backups/
 fp-info-cache
+# KiCad manual / timestamped backups
+*.bak
+*.bak_*
+*-PRE-RESTORE-*
+# Per-machine KiCad UI state (zoom, layer visibility) - never share
+*.kicad_prl
+# Python cache & packaged fab output (regenerate from fabrication/v3/)
+__pycache__/
+fabrication.zip
