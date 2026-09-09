@@ -14599,7 +14599,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "55fb6382-87bb-4e95-979e-73f8b370afe1")
 		(property "Reference" "J6"
 			(at 86.868 100.33 0)
@@ -14824,7 +14824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5ad6be4e-a4b3-4d2f-ac1e-1a359ba28334")
 		(property "Reference" "J7"
