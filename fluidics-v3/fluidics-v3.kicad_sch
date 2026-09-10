@@ -10827,7 +10827,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806"
-					(reference "H?")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10864,6 +10864,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C127361"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "molex_connectors:SHDR2W64P0X254_1X2_737X660X1181P"
@@ -10914,7 +10925,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 372.11 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10926,7 +10937,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0705430001"
+		(property "Manufacturer_Part_Number" "705430001"
 			(at 374.65 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11298,6 +11309,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.582 41.91 90)
 			(hide yes)
@@ -11652,7 +11696,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806"
-					(reference "H?")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -11772,6 +11816,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C394395"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Taiyo Yuden"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EMK325ABJ107MM-T"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -12166,6 +12243,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C471473"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B6B-ZR-SM4-TF(LF)(SN)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "B6B-ZR-SM4-TF:CONN_B6B-ZR-SM4-TF_JST"
 			(at 151.13 135.89 0)
 			(hide yes)
@@ -12540,6 +12639,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C160479"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
@@ -13328,6 +13460,17 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "molex_connectors:SHDR2W64P0X254_1X2_737X660X1181P"
 			(at 330.2 25.4 0)
 			(hide yes)
@@ -13376,7 +13519,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 340.36 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13388,7 +13531,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0705430001"
+		(property "Manufacturer_Part_Number" "705430001"
 			(at 342.9 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13915,6 +14058,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C36871"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF6802TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.582 55.88 90)
 			(hide yes)
@@ -14152,6 +14328,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C96123"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A476MPHNNNE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 79.7052 82.55 0)
 			(hide yes)
@@ -14288,7 +14497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer_Name" "CUI Devices"
+		(property "Manufacturer_Name" "CUI"
 			(at 53.34 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14312,7 +14521,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C2928097"
+		(property "LCSC" "C22434582"
 			(at 53.34 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14377,6 +14586,17 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "molex_connectors:SHDR2W64P0X254_1X2_737X660X1181P"
 			(at 300.99 25.4 0)
 			(hide yes)
@@ -14425,7 +14645,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 311.15 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14437,7 +14657,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0705430001"
+		(property "Manufacturer_Part_Number" "705430001"
 			(at 313.69 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15147,6 +15367,17 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "molex_connectors:SHDR2W64P0X254_1X2_737X660X1181P"
 			(at 271.78 25.4 0)
 			(hide yes)
@@ -15195,7 +15426,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 281.94 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15207,7 +15438,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0705430001"
+		(property "Manufacturer_Part_Number" "705430001"
 			(at 284.48 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15391,6 +15622,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C471473"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B6B-ZR-SM4-TF(LF)(SN)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "B6B-ZR-SM4-TF:CONN_B6B-ZR-SM4-TF_JST"
@@ -15969,6 +16222,39 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C160479"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 116.84 269.24 0)
 			(hide yes)
@@ -16512,7 +16798,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "ASSMANN WSW components GmbH"
+		(property "Manufacturer_Name" "CONNFLY Elec"
 			(at 33.02 -491.72 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +16810,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "A-DS 15 A/KG-T4S"
+		(property "Manufacturer_Part_Number" "DS1037-15MNCKT74-0CC"
 			(at 33.02 -591.72 0)
 			(hide yes)
 			(show_name no)
@@ -16536,7 +16822,7 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC" "C3100941"
+		(property "LCSC" "C77837"
 			(at 62.23 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -16904,6 +17190,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25885"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF2701TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -17299,6 +17618,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C277393"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "533980671"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "molex_connectors:MOLEX_0533980671"
 			(at 358.14 147.32 0)
 			(hide yes)
@@ -17369,7 +17710,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 358.14 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17495,7 +17836,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 252.73 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17507,7 +17848,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0705430001"
+		(property "Manufacturer_Part_Number" "705430001"
 			(at 255.27 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17567,7 +17908,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C5349069"
+		(property "LCSC" "C127361"
 			(at 245.11 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -18159,6 +18500,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C110486"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340-13-F"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 292.1 189.23 0)
 			(hide yes)
@@ -18337,6 +18711,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -18544,7 +18951,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 223.52 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18556,7 +18963,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0705430001"
+		(property "Manufacturer_Part_Number" "705430001"
 			(at 226.06 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18616,7 +19023,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C5349069"
+		(property "LCSC" "C127361"
 			(at 215.9 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -18830,6 +19237,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C2912407"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Huawei Elec"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KM1H471MG200A00CV016"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 130.5052 50.8 0)
 			(hide yes)
@@ -18910,6 +19350,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25885"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF2701TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -19071,6 +19544,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25819"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0603WAF4702T5E"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.062 261.62 90)
 			(hide yes)
@@ -19152,6 +19658,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C277393"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "533980671"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "molex_connectors:MOLEX_0533980671"
 			(at 358.14 115.57 0)
 			(hide yes)
@@ -19222,7 +19750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 358.14 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19344,7 +19872,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806"
-					(reference "H?")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -19373,7 +19901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "33u 50V"
 			(at 38.1 77.8509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19382,6 +19910,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C2158776"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "T521X336M050ATE050"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-20_Kemet-V"
@@ -19465,6 +20026,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C277393"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "533980671"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "molex_connectors:MOLEX_0533980671"
 			(at 358.14 177.8 0)
 			(hide yes)
@@ -19535,7 +20118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" "MOLEX"
 			(at 358.14 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19690,6 +20273,39 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C160479"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 173.99 270.51 0)
 			(hide yes)
@@ -19781,6 +20397,39 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C160479"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
@@ -20489,6 +21138,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25885"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF2701TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 144.272 262.89 90)
 			(hide yes)
@@ -20988,6 +21670,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C2566"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon Technologies"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRF540NPBF"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 116.84 58.42 0)
 			(hide yes)
@@ -21147,6 +21862,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"

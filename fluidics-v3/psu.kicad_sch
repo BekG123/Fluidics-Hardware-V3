@@ -2200,6 +2200,28 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C364562"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 90.17 59.69 0)
 			(hide yes)
@@ -2269,7 +2291,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2462,6 +2484,28 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C364562"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 101.6 59.69 0)
 			(hide yes)
@@ -2531,7 +2575,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2726,6 +2770,39 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 41.6052 59.69 0)
 			(hide yes)
@@ -2883,6 +2960,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C4382"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.392 52.07 90)
 			(hide yes)
@@ -2915,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-075K6L"
+		(property "Manufacturer_Part_Number" "0805W8F5601T5E"
 			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2941,7 +3040,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2978,6 +3077,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -3051,6 +3183,39 @@
 		)
 		(property "Value" "TSR1-2450E"
 			(at 39.37 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5346721"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TRACO POWER"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSR 1-2450E"
+			(at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3385,6 +3550,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25792"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.822 52.07 90)
 			(hide yes)
@@ -3417,7 +3604,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0747KL"
+		(property "Manufacturer_Part_Number" "0402WGF4702TCE"
 			(at 101.6 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3443,7 +3630,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3641,6 +3828,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C23380830"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TECH PUBLIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP2112K-3.3TRG1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 31.75 46.355 0)
 			(hide yes)
@@ -3813,6 +4033,28 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C2295"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 111.76 59.69 0)
 			(hide yes)
@@ -3856,7 +4098,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "EAST2012WA1"
+		(property "Manufacturer_Part_Number" "KT-0805R"
 			(at 111.76 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3882,7 +4124,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4079,6 +4321,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C140159"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.982 52.07 90)
 			(hide yes)
@@ -4111,7 +4375,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-073KL"
+		(property "Manufacturer_Part_Number" "RC-02K3001FT"
 			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4401,7 @@
 			)
 			(project "fluidics - standalone"
 				(path "/8147bc74-d9d4-4f1e-bd7d-8bc37b8b3806/00000000-0000-0000-0000-0000600fdced"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
